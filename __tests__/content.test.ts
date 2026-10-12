@@ -18,6 +18,18 @@ describe('catalogo', () => {
   it('ha almeno una unità scritta', () => {
     expect(readyUnits.length).toBeGreaterThan(0)
   })
+  it('ha per ogni unità anno e moduli previsti, in ordine di anno', () => {
+    catalog.forEach((s) => {
+      s.units.forEach((u, i) => {
+        expect(u.id).toMatch(new RegExp(`^${String(i + 1).padStart(2, '0')}-[a-z0-9-]+$`))
+        expect([1, 2]).toContain(u.year)
+        expect(u.plan.length).toBeGreaterThanOrEqual(4)
+        expect(u.plan.length).toBeLessThanOrEqual(6)
+      })
+      const years = s.units.map((u) => u.year)
+      expect(years).toEqual([...years].sort())
+    })
+  })
 })
 
 describe.each(readyUnits.map(({ s, u }) => [`${s.id}/${u.id}`, s, u] as const))('unità %s', (_name, s, entry) => {
@@ -29,6 +41,7 @@ describe.each(readyUnits.map(({ s, u }) => [`${s.id}/${u.id}`, s, u] as const))(
     expect(unit.id).toBe(entry.id)
     expect(unit.title).toBe(entry.title)
     expect(unit.number).toBe(s.units.findIndex((x) => x.id === entry.id) + 1)
+    expect(unit.modules.map((m) => m.title)).toEqual(entry.plan)
   })
   it('ha lezioni esistenti e non vuote', () => {
     unit.modules.forEach((m) => {

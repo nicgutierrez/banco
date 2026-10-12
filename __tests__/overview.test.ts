@@ -14,9 +14,9 @@ const subject: Subject = {
   id: 'storia',
   name: 'Storia',
   units: [
-    { id: 'u1', title: 'Unità 1', ready: true },
-    { id: 'u2', title: 'Unità 2', ready: true },
-    { id: 'u3', title: 'Unità 3', ready: false },
+    { id: 'u1', title: 'Unità 1', year: 1, ready: true, plan: ['m1', 'm2'] },
+    { id: 'u2', title: 'Unità 2', year: 1, ready: true, plan: ['m1', 'm2'] },
+    { id: 'u3', title: 'Unità 3', year: 2, ready: false, plan: ['a', 'b', 'c', 'd'] },
   ],
 }
 const ready = [{ subject, unit: unit('u1', 1) }, { subject, unit: unit('u2', 2) }]

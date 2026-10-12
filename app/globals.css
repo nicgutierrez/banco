@@ -227,3 +227,13 @@ a.list-row:hover { background: var(--surface-2); }
 .field input { height: 48px; padding: 0 14px; font-size: 16px; color: var(--ink); background: var(--surface); border: 1px solid var(--muted); border-radius: 6px; }
 .notice { border-radius: 6px; padding: 12px 14px; background: var(--surface-2); }
 .notice.error { background: var(--bad-soft); color: var(--bad-ink); }
+
+/* Piano delle unità non ancora scritte */
+.plan-row > summary { list-style: none; cursor: pointer; }
+.plan-row > summary::-webkit-details-marker { display: none; }
+.plan-row > summary::after { content: '+'; font-weight: 700; color: var(--muted); }
+.plan-row[open] > summary::after { content: '−'; }
+.plan-row { border-bottom: 1px solid var(--line-soft); }
+.plan-row:last-child { border-bottom: 0; }
+.plan-row .list-row { border-bottom: 0; }
+.plan-list { margin: 0; padding: 0 18px 14px 66px; color: var(--muted); display: flex; flex-direction: column; gap: 4px; }

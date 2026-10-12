@@ -34,7 +34,11 @@ export type Unit = {
 export type UnitEntry = {
   id: string
   title: string
+  /** Anno del biennio in cui di solito si studia. */
+  year: 1 | 2
   ready: boolean
+  /** Titoli dei moduli previsti. Per le unità scritte coincidono con quelli di unit.json. */
+  plan: string[]
 }
 
 export type Subject = {

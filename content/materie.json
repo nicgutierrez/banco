@@ -3,149 +3,1985 @@
     "id": "storia",
     "name": "Storia",
     "units": [
-      { "id": "01-preistoria-vicino-oriente", "title": "Preistoria e Vicino Oriente antico", "ready": true },
-      { "id": "02-egitto-fenici-ebrei", "title": "Egitto, Fenici ed Ebrei", "ready": false },
-      { "id": "03-grecia-poleis", "title": "La Grecia delle poleis", "ready": false },
-      { "id": "04-guerre-persiane-alessandro", "title": "Dalle guerre persiane ad Alessandro Magno", "ready": false },
-      { "id": "05-roma-origini-repubblica", "title": "Roma dalle origini alla repubblica", "ready": false },
-      { "id": "06-espansione-crisi-repubblica", "title": "Espansione e crisi della repubblica", "ready": false },
-      { "id": "07-impero-romano", "title": "L'impero romano", "ready": false },
-      { "id": "08-tardo-impero-cristianesimo", "title": "Il tardo impero e il cristianesimo", "ready": false },
-      { "id": "09-regni-barbarici-bisanzio", "title": "Regni romano-barbarici e Bisanzio", "ready": false },
-      { "id": "10-islam-carolingi-feudalesimo", "title": "Islam, Carolingi e feudalesimo", "ready": false }
-    ]
-  },
-  {
-    "id": "matematica",
-    "name": "Matematica",
-    "units": [
-      { "id": "01-insiemi-numeri", "title": "Insiemi e numeri", "ready": false },
-      { "id": "02-monomi-polinomi", "title": "Monomi e polinomi", "ready": false },
-      { "id": "03-equazioni-primo-grado", "title": "Equazioni di primo grado", "ready": false },
-      { "id": "04-scomposizioni-frazioni-algebriche", "title": "Scomposizioni e frazioni algebriche", "ready": false },
-      { "id": "05-disequazioni-sistemi", "title": "Disequazioni e sistemi lineari", "ready": false },
-      { "id": "06-radicali", "title": "Radicali", "ready": false },
-      { "id": "07-equazioni-secondo-grado", "title": "Equazioni di secondo grado", "ready": false },
-      { "id": "08-piano-cartesiano-retta", "title": "Piano cartesiano e retta", "ready": false },
-      { "id": "09-geometria-euclidea", "title": "Geometria euclidea", "ready": false },
-      { "id": "10-statistica-probabilita", "title": "Statistica e probabilità", "ready": false }
+      {
+        "id": "01-preistoria-vicino-oriente",
+        "title": "Preistoria e Vicino Oriente antico",
+        "year": 1,
+        "ready": true,
+        "plan": [
+          "Prima della storia: il Paleolitico",
+          "La rivoluzione neolitica",
+          "La Mesopotamia e i Sumeri",
+          "Accadi e Babilonesi: il primo impero e la legge scritta",
+          "Ittiti, Assiri e Persiani"
+        ]
+      },
+      {
+        "id": "02-egitto-fenici-ebrei",
+        "title": "Egitto, Fenici ed Ebrei",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "L'Egitto: il Nilo e l'unificazione",
+          "Il faraone, la società e la religione egizia",
+          "Antico, Medio e Nuovo Regno",
+          "I Fenici: mercanti, colonie e alfabeto",
+          "Gli Ebrei: dai patriarchi al regno",
+          "Il monoteismo ebraico e la diaspora"
+        ]
+      },
+      {
+        "id": "03-grecia-arcaica",
+        "title": "Dalle civiltà dell'Egeo alla polis",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Creta e la civiltà minoica",
+          "I Micenei",
+          "Il Medioevo ellenico e la colonizzazione",
+          "La polis greca",
+          "Sparta",
+          "Atene: da Solone a Clistene"
+        ]
+      },
+      {
+        "id": "04-grecia-classica",
+        "title": "La Grecia classica",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Le guerre persiane",
+          "Atene di Pericle e la democrazia",
+          "La guerra del Peloponneso",
+          "Le egemonie di Sparta e di Tebe",
+          "Religione, teatro e filosofia dei Greci"
+        ]
+      },
+      {
+        "id": "05-alessandro-ellenismo",
+        "title": "Alessandro Magno e l'Ellenismo",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "La Macedonia di Filippo II",
+          "Alessandro Magno e le sue conquiste",
+          "I regni ellenistici",
+          "La cultura ellenistica"
+        ]
+      },
+      {
+        "id": "06-italia-antica-roma-monarchica",
+        "title": "L'Italia antica e Roma dei re",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "I popoli dell'Italia preromana",
+          "Gli Etruschi",
+          "La fondazione di Roma tra mito e storia",
+          "I sette re e la società romana",
+          "La fine della monarchia"
+        ]
+      },
+      {
+        "id": "07-roma-repubblicana",
+        "title": "La Repubblica romana e le conquiste",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Le istituzioni della Repubblica",
+          "Patrizi e plebei",
+          "La conquista dell'Italia",
+          "Le guerre puniche",
+          "L'espansione nel Mediterraneo orientale",
+          "Le conseguenze delle conquiste"
+        ]
+      },
+      {
+        "id": "08-crisi-repubblica",
+        "title": "La crisi della Repubblica",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "I Gracchi e le riforme agrarie",
+          "Mario e Silla",
+          "Pompeo, Crasso e il primo triumvirato",
+          "Giulio Cesare",
+          "Antonio, Ottaviano e la fine della Repubblica"
+        ]
+      },
+      {
+        "id": "09-impero-romano",
+        "title": "Augusto e l'Impero romano",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Augusto e il principato",
+          "La dinastia giulio-claudia",
+          "I Flavi",
+          "Gli Antonini e la massima espansione",
+          "Economia e società dell'Impero"
+        ]
+      },
+      {
+        "id": "10-cristianesimo-crisi-impero",
+        "title": "Il cristianesimo e la crisi dell'Impero",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Le origini del cristianesimo",
+          "Diffusione e persecuzioni",
+          "La crisi del III secolo",
+          "Diocleziano e la tetrarchia",
+          "Costantino",
+          "Teodosio e il cristianesimo religione di Stato"
+        ]
+      },
+      {
+        "id": "11-caduta-impero-regni-germanici",
+        "title": "La fine dell'Impero d'Occidente e i regni germanici",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "I Germani",
+          "Le invasioni e la caduta dell'Impero d'Occidente",
+          "I regni romano-germanici",
+          "L'Italia di Teodorico",
+          "Il monachesimo"
+        ]
+      },
+      {
+        "id": "12-bizantini-longobardi",
+        "title": "Bizantini e Longobardi",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "L'Impero romano d'Oriente",
+          "Giustiniano e il Corpus iuris civilis",
+          "La guerra greco-gotica",
+          "I Longobardi in Italia",
+          "La Chiesa di Roma e Gregorio Magno"
+        ]
+      },
+      {
+        "id": "13-islam",
+        "title": "Maometto e l'Islam",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "L'Arabia prima dell'Islam",
+          "Maometto e la nascita dell'Islam",
+          "I principi della religione islamica",
+          "L'espansione araba",
+          "Califfati e civiltà islamica"
+        ]
+      },
+      {
+        "id": "14-carolingi-feudalesimo",
+        "title": "Carlo Magno e il feudalesimo",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "I Franchi e l'alleanza con il papato",
+          "Carlo Magno e il Sacro romano impero",
+          "L'organizzazione dell'impero carolingio",
+          "La dissoluzione dell'impero e le nuove invasioni",
+          "Il feudalesimo",
+          "L'economia curtense"
+        ]
+      }
     ]
   },
   {
     "id": "italiano",
     "name": "Italiano",
     "units": [
-      { "id": "01-fonologia-ortografia", "title": "Fonologia e ortografia", "ready": false },
-      { "id": "02-nome-articolo-aggettivo", "title": "Nome, articolo e aggettivo", "ready": false },
-      { "id": "03-verbo", "title": "Il verbo", "ready": false },
-      { "id": "04-altre-parti-discorso", "title": "Pronomi, avverbi, preposizioni e congiunzioni", "ready": false },
-      { "id": "05-frase-semplice", "title": "La frase semplice", "ready": false },
-      { "id": "06-periodo", "title": "Il periodo", "ready": false },
-      { "id": "07-riassunto-parafrasi", "title": "Riassunto e parafrasi", "ready": false },
-      { "id": "08-testo-descrittivo-narrativo", "title": "Testo descrittivo e narrativo", "ready": false },
-      { "id": "09-testo-espositivo-argomentativo", "title": "Testo espositivo e argomentativo", "ready": false },
-      { "id": "10-narrativa", "title": "Il racconto e i suoi elementi", "ready": false },
-      { "id": "11-poesia", "title": "Poesia: metrica e figure retoriche", "ready": false },
-      { "id": "12-epica-promessi-sposi", "title": "Epica e I promessi sposi", "ready": false }
+      {
+        "id": "01-fonologia-ortografia",
+        "title": "Suoni, lettere e ortografia",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Vocali, consonanti, digrammi e trigrammi",
+          "La sillaba e la divisione in sillabe",
+          "Accento, elisione e troncamento",
+          "I segni di punteggiatura",
+          "Errori frequenti: doppie, h, cq e qu, gn e ni"
+        ]
+      },
+      {
+        "id": "02-nome-articolo-aggettivo",
+        "title": "Nome, articolo e aggettivo",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Le parti del discorso variabili e invariabili",
+          "Il nome: genere, numero e formazione",
+          "L'articolo determinativo, indeterminativo e partitivo",
+          "L'aggettivo qualificativo e i suoi gradi",
+          "Gli aggettivi determinativi"
+        ]
+      },
+      {
+        "id": "03-verbo",
+        "title": "Il verbo",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Persona, numero, tempo e modo",
+          "Le coniugazioni e i verbi ausiliari",
+          "I modi finiti: indicativo, congiuntivo, condizionale, imperativo",
+          "I modi indefiniti: infinito, participio, gerundio",
+          "Transitivi e intransitivi; forma attiva, passiva e riflessiva",
+          "Verbi servili, fraseologici e impersonali"
+        ]
+      },
+      {
+        "id": "04-pronomi-parti-invariabili",
+        "title": "Pronomi e parti invariabili",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "I pronomi personali",
+          "I pronomi relativi",
+          "Possessivi, dimostrativi, indefiniti e interrogativi",
+          "L'avverbio",
+          "Preposizioni, congiunzioni e interiezioni"
+        ]
+      },
+      {
+        "id": "05-analisi-logica",
+        "title": "La frase semplice: analisi logica",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Frase, sintagma e frase minima",
+          "Soggetto, predicato verbale e predicato nominale",
+          "Attributo e apposizione",
+          "Complemento oggetto e complementi predicativi",
+          "Specificazione, termine, agente e causa efficiente",
+          "Luogo, tempo, causa, fine, mezzo, modo e compagnia"
+        ]
+      },
+      {
+        "id": "06-elementi-racconto",
+        "title": "Gli elementi del testo narrativo",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Fabula e intreccio",
+          "Le sequenze e lo schema del racconto",
+          "I personaggi: ruolo, presentazione, caratterizzazione",
+          "Autore, narratore e punto di vista",
+          "Il tempo e lo spazio del racconto",
+          "Lo stile: registro, discorso diretto e indiretto"
+        ]
+      },
+      {
+        "id": "07-generi-narrativi",
+        "title": "I generi della narrativa",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Favola e fiaba",
+          "Il racconto fantastico e l'horror",
+          "La fantascienza",
+          "Il giallo",
+          "Il racconto realistico e di formazione"
+        ]
+      },
+      {
+        "id": "08-epica",
+        "title": "Il mito e l'epica classica",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Mito ed epica: dall'Epopea di Gilgamesh a Omero",
+          "L'Iliade: guerra di Troia, trama e personaggi",
+          "L'Iliade: Ettore, Achille e i grandi episodi",
+          "L'Odissea: struttura e figura di Ulisse",
+          "L'Odissea: Polifemo, Circe e il ritorno a Itaca",
+          "L'Eneide: Virgilio, Enea e Didone"
+        ]
+      },
+      {
+        "id": "09-scrivere-testi",
+        "title": "Scrivere: riassunto, descrizione, esposizione",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Le fasi della scrittura: pianificare, scrivere, rivedere",
+          "Il riassunto",
+          "Il testo descrittivo",
+          "Il testo espositivo",
+          "Lettera, diario e testo autobiografico"
+        ]
+      },
+      {
+        "id": "10-sintassi-periodo",
+        "title": "Il periodo: analisi del periodo",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Frase e periodo: la proposizione principale",
+          "La coordinazione",
+          "La subordinazione: esplicite e implicite",
+          "Soggettive, oggettive, dichiarative e interrogative indirette",
+          "Le relative",
+          "Causali, finali, temporali, consecutive, concessive e periodo ipotetico"
+        ]
+      },
+      {
+        "id": "11-poesia-metrica",
+        "title": "Il testo poetico e la metrica",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Il testo poetico: significante e significato",
+          "Il computo delle sillabe: sinalefe, dialefe, sineresi, dieresi",
+          "I versi italiani e gli accenti",
+          "La rima e la strofa",
+          "Le forme metriche: sonetto, canzone, verso libero"
+        ]
+      },
+      {
+        "id": "12-figure-retoriche-analisi",
+        "title": "Figure retoriche, parafrasi e analisi",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Le figure di suono",
+          "Le figure d'ordine",
+          "Le figure di significato",
+          "La parafrasi",
+          "Analizzare e commentare una poesia"
+        ]
+      },
+      {
+        "id": "13-testo-argomentativo",
+        "title": "Il testo argomentativo",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Tesi, antitesi e argomenti",
+          "Tipi di argomenti e confutazione",
+          "La struttura del testo argomentativo",
+          "Leggere un articolo di giornale",
+          "Scrivere un testo argomentativo"
+        ]
+      },
+      {
+        "id": "14-promessi-sposi",
+        "title": "I promessi sposi",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Manzoni, il Romanticismo e il romanzo storico",
+          "Genesi, edizioni e struttura del romanzo",
+          "Don Abbondio, i bravi e la notte degli imbrogli",
+          "La monaca di Monza e Renzo a Milano",
+          "L'innominato e la conversione",
+          "La peste, il finale e il sugo della storia"
+        ]
+      }
     ]
   },
   {
-    "id": "inglese",
-    "name": "Inglese",
+    "id": "matematica",
+    "name": "Matematica",
     "units": [
-      { "id": "01-present-tenses", "title": "Present simple e present continuous", "ready": false },
-      { "id": "02-past-tenses", "title": "Past simple e past continuous", "ready": false },
-      { "id": "03-present-perfect", "title": "Present perfect", "ready": false },
-      { "id": "04-future", "title": "Il futuro", "ready": false },
-      { "id": "05-modals", "title": "I verbi modali", "ready": false },
-      { "id": "06-comparatives", "title": "Comparativi e superlativi", "ready": false },
-      { "id": "07-conditionals", "title": "Periodo ipotetico", "ready": false },
-      { "id": "08-reading-writing", "title": "Comprensione e produzione scritta", "ready": false }
+      {
+        "id": "01-insiemi-e-logica",
+        "title": "Insiemi e logica",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Che cos'è un insieme e come si rappresenta",
+          "Sottoinsiemi, insieme vuoto e insieme universo",
+          "Intersezione, unione e differenza",
+          "Prodotto cartesiano e insieme complementare",
+          "Proposizioni e connettivi logici",
+          "Tavole di verità e quantificatori"
+        ]
+      },
+      {
+        "id": "02-numeri-e-potenze",
+        "title": "Numeri naturali, interi e razionali",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Numeri naturali: operazioni e proprietà",
+          "Divisibilità, numeri primi, MCD e mcm",
+          "Numeri interi relativi e operazioni",
+          "Frazioni: equivalenza, semplificazione e confronto",
+          "Operazioni con le frazioni e numeri decimali",
+          "Potenze e loro proprietà, esponente negativo e notazione scientifica"
+        ]
+      },
+      {
+        "id": "03-proporzioni-e-percentuali",
+        "title": "Rapporti, proporzioni e percentuali",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Rapporti e proporzioni: proprietà",
+          "Calcolo del termine incognito di una proporzione",
+          "Grandezze direttamente e inversamente proporzionali",
+          "Percentuali: calcolo di parte, totale e tasso",
+          "Aumenti e sconti percentuali, IVA e variazioni successive",
+          "Ripartizione proporzionale"
+        ]
+      },
+      {
+        "id": "04-monomi-polinomi",
+        "title": "Monomi, polinomi e prodotti notevoli",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Espressioni letterali e monomi",
+          "Operazioni con i monomi, MCD e mcm di monomi",
+          "Polinomi: somma e differenza",
+          "Moltiplicazione tra polinomi",
+          "Prodotti notevoli: quadrato di binomio e somma per differenza",
+          "Cubo di binomio, quadrato di trinomio e divisione tra polinomi"
+        ]
+      },
+      {
+        "id": "05-scomposizioni-frazioni-algebriche",
+        "title": "Scomposizioni e frazioni algebriche",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Raccoglimento totale e parziale",
+          "Scomposizione con i prodotti notevoli",
+          "Trinomio caratteristico e regola di Ruffini",
+          "MCD e mcm di polinomi",
+          "Frazioni algebriche: condizioni di esistenza e semplificazione",
+          "Operazioni con le frazioni algebriche"
+        ]
+      },
+      {
+        "id": "06-equazioni-disequazioni-primo-grado",
+        "title": "Equazioni e disequazioni di primo grado",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Identità ed equazioni, principi di equivalenza",
+          "Equazioni intere numeriche di primo grado",
+          "Equazioni fratte e letterali",
+          "Problemi risolvibili con equazioni",
+          "Disequazioni di primo grado e intervalli",
+          "Disequazioni fratte e sistemi di disequazioni"
+        ]
+      },
+      {
+        "id": "07-geometria-piana",
+        "title": "Elementi di geometria piana",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Enti fondamentali, assiomi, teoremi e dimostrazioni",
+          "Segmenti, angoli e figure congruenti",
+          "Triangoli e criteri di congruenza",
+          "Rette parallele e perpendicolari",
+          "Parallelogrammi, rettangoli, rombi, quadrati e trapezi",
+          "Aree dei poligoni e teorema di Pitagora"
+        ]
+      },
+      {
+        "id": "08-funzioni-e-retta",
+        "title": "Relazioni, funzioni e retta nel piano cartesiano",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Relazioni e funzioni: dominio e codominio",
+          "Piano cartesiano, distanza tra due punti e punto medio",
+          "Grafici di proporzionalità diretta e inversa",
+          "Equazione della retta e coefficiente angolare",
+          "Rette parallele e perpendicolari",
+          "Retta per un punto e retta per due punti"
+        ]
+      },
+      {
+        "id": "09-sistemi-lineari",
+        "title": "Sistemi di equazioni lineari",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Che cos'è un sistema lineare e grado del sistema",
+          "Metodo di sostituzione",
+          "Metodo del confronto e di riduzione",
+          "Metodo di Cramer",
+          "Sistemi determinati, impossibili e indeterminati: interpretazione grafica",
+          "Problemi risolvibili con sistemi"
+        ]
+      },
+      {
+        "id": "10-numeri-reali-radicali",
+        "title": "Numeri reali e radicali",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Numeri irrazionali e numeri reali",
+          "Radicali: definizione e condizioni di esistenza",
+          "Proprietà invariantiva, semplificazione e confronto",
+          "Moltiplicazione, divisione e trasporto dentro e fuori dal segno di radice",
+          "Somma di radicali ed espressioni",
+          "Razionalizzazione del denominatore e potenze a esponente razionale"
+        ]
+      },
+      {
+        "id": "11-equazioni-secondo-grado",
+        "title": "Equazioni di secondo grado",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Equazioni di secondo grado incomplete",
+          "Formula risolutiva e discriminante",
+          "Formula ridotta e relazioni tra coefficienti e soluzioni",
+          "Scomposizione del trinomio di secondo grado",
+          "Equazioni fratte di secondo grado",
+          "Problemi di secondo grado"
+        ]
+      },
+      {
+        "id": "12-statistica-probabilita",
+        "title": "Statistica e probabilità",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Indagine statistica: popolazione, campione e caratteri",
+          "Tabelle e frequenze assolute, relative e percentuali",
+          "Grafici statistici: istogrammi, aerogrammi, diagrammi cartesiani",
+          "Indici di posizione: media, mediana e moda",
+          "Indici di variabilità: campo di variazione, scarto quadratico medio",
+          "Eventi e probabilità classica"
+        ]
+      }
     ]
   },
   {
-    "id": "geografia",
-    "name": "Geografia",
+    "id": "economia-aziendale",
+    "name": "Economia aziendale",
     "units": [
-      { "id": "01-strumenti", "title": "Gli strumenti della geografia", "ready": false },
-      { "id": "02-climi-ambienti", "title": "Climi e ambienti", "ready": false },
-      { "id": "03-popolazione-migrazioni", "title": "Popolazione e migrazioni", "ready": false },
-      { "id": "04-citta", "title": "Città e insediamenti", "ready": false },
-      { "id": "05-economia-globalizzazione", "title": "Economia e globalizzazione", "ready": false },
-      { "id": "06-italia-europa", "title": "L'Italia e l'Unione europea", "ready": false }
+      {
+        "id": "01-azienda-sistema",
+        "title": "L'azienda come sistema",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Bisogni, beni e attività economica",
+          "L'azienda: definizione ed elementi",
+          "Classificazione delle aziende",
+          "Soggetto giuridico e soggetto economico",
+          "L'azienda e il suo ambiente: gli stakeholder"
+        ]
+      },
+      {
+        "id": "02-organizzazione",
+        "title": "Organizzazione e risorse umane",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "I fattori produttivi e la loro combinazione",
+          "Le funzioni aziendali",
+          "Organi e livelli della struttura",
+          "Organigramma e modelli organizzativi",
+          "Le risorse umane: lavoro dipendente e autonomo"
+        ]
+      },
+      {
+        "id": "03-proporzioni-percentuali",
+        "title": "Strumenti di calcolo: proporzioni e percentuali",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Grandezze, unità di misura e sistemi non decimali",
+          "Rapporti e proporzioni",
+          "Proporzionalità diretta e inversa",
+          "Il calcolo percentuale",
+          "Calcoli sopra cento e sotto cento"
+        ]
+      },
+      {
+        "id": "04-riparti",
+        "title": "Strumenti di calcolo: i riparti",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Riparto proporzionale semplice diretto",
+          "Riparto semplice inverso",
+          "Riparto composto",
+          "Riparti nelle aziende: costi comuni e utili"
+        ]
+      },
+      {
+        "id": "05-compravendita",
+        "title": "Il contratto di compravendita",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Il contratto di compravendita: elementi ed effetti",
+          "Le fasi della compravendita",
+          "Clausole sulla consegna e sull'imballaggio",
+          "Clausole sul pagamento",
+          "Peso lordo, tara e peso netto"
+        ]
+      },
+      {
+        "id": "06-iva",
+        "title": "L'IVA",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Caratteri e presupposti dell'IVA",
+          "Operazioni imponibili, non imponibili, esenti, escluse",
+          "Aliquote e base imponibile",
+          "Calcolo e scorporo dell'IVA",
+          "Liquidazione e versamento: cenni"
+        ]
+      },
+      {
+        "id": "07-documenti-compravendita",
+        "title": "Fattura e documenti della compravendita",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Documenti della compravendita e DDT",
+          "Fattura immediata e differita",
+          "Calcoli in fattura: sconti, spese e base imponibile",
+          "Fattura con imballaggi e più aliquote",
+          "Fattura elettronica e note di variazione"
+        ]
+      },
+      {
+        "id": "08-interesse",
+        "title": "L'interesse e il montante",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Il concetto di interesse",
+          "Formula dell'interesse con tempo in anni, mesi e giorni",
+          "Formule inverse: capitale, tasso e tempo",
+          "Il montante",
+          "Problemi inversi sul montante"
+        ]
+      },
+      {
+        "id": "09-sconto-scadenze",
+        "title": "Sconto commerciale e scadenze",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Lo sconto commerciale",
+          "Il valore attuale",
+          "Formule inverse dello sconto",
+          "La scadenza comune",
+          "La scadenza adeguata"
+        ]
+      },
+      {
+        "id": "10-pagamenti-bancari",
+        "title": "Gli strumenti di pagamento bancari",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Sistema dei pagamenti e tracciabilità",
+          "Il conto corrente bancario",
+          "Bonifico, RiBa, MAV e SDD",
+          "Carte di debito, di credito e prepagate",
+          "L'assegno bancario",
+          "L'assegno circolare"
+        ]
+      },
+      {
+        "id": "11-cambiali",
+        "title": "Le cambiali",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "La cambiale: funzioni e tipi",
+          "Il pagherò cambiario",
+          "La cambiale tratta e l'accettazione",
+          "Scadenza, bollo e avallo",
+          "Girata, pagamento e protesto",
+          "Lo sconto cambiario"
+        ]
+      },
+      {
+        "id": "12-gestione-patrimonio",
+        "title": "La gestione, il patrimonio e il reddito",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Le operazioni di gestione",
+          "Fonti di finanziamento: capitale proprio e di debito",
+          "Gli investimenti",
+          "Aspetto finanziario ed economico della gestione",
+          "Il patrimonio e la situazione patrimoniale",
+          "Il reddito e la situazione economica"
+        ]
+      }
     ]
   },
   {
     "id": "diritto-economia",
     "name": "Diritto ed economia",
     "units": [
-      { "id": "01-norme-fonti", "title": "Le norme e le fonti del diritto", "ready": false },
-      { "id": "02-stato", "title": "Lo Stato e le sue forme", "ready": false },
-      { "id": "03-costituzione", "title": "La Costituzione italiana", "ready": false },
-      { "id": "04-diritti-doveri", "title": "Diritti e doveri dei cittadini", "ready": false },
-      { "id": "05-organi-stato", "title": "Gli organi dello Stato", "ready": false },
-      { "id": "06-sistema-economico", "title": "Bisogni, beni e sistema economico", "ready": false },
-      { "id": "07-mercato", "title": "Il mercato, la domanda e l'offerta", "ready": false },
-      { "id": "08-moneta-banche", "title": "Moneta, banche e inflazione", "ready": false }
+      {
+        "id": "01-norme-giuridiche",
+        "title": "Le regole e il diritto",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Regole sociali e norme giuridiche",
+          "Caratteri della norma giuridica",
+          "Le sanzioni",
+          "Diritto oggettivo e soggettivo, pubblico e privato",
+          "Interpretazione delle norme ed efficacia nel tempo"
+        ]
+      },
+      {
+        "id": "02-fonti-diritto",
+        "title": "Le fonti del diritto",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Che cosa sono le fonti del diritto",
+          "Costituzione e leggi costituzionali",
+          "Fonti dell'Unione europea, leggi ordinarie, decreti",
+          "Regolamenti e consuetudini",
+          "La gerarchia delle fonti e i conflitti tra norme"
+        ]
+      },
+      {
+        "id": "03-soggetti-diritto",
+        "title": "I soggetti e l'oggetto del diritto",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Il rapporto giuridico: situazioni attive e passive",
+          "Persona fisica: capacità giuridica e capacità d'agire",
+          "Gli incapaci e la loro tutela",
+          "Sede, domicilio e residenza",
+          "Persone giuridiche e organizzazioni collettive",
+          "I beni giuridici"
+        ]
+      },
+      {
+        "id": "04-stato",
+        "title": "Lo Stato e le sue forme",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Gli elementi dello Stato: popolo, territorio, sovranità",
+          "La cittadinanza italiana",
+          "Le forme di Stato nella storia",
+          "Forme di governo: monarchia e repubblica",
+          "Stato unitario, federale e regionale"
+        ]
+      },
+      {
+        "id": "05-costituzione",
+        "title": "La Costituzione italiana",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Dallo Statuto albertino alla Costituzione",
+          "Caratteri e struttura della Costituzione",
+          "I principi fondamentali (artt. 1-6)",
+          "I principi fondamentali (artt. 7-12)",
+          "I diritti di libertà",
+          "Diritti sociali, diritti politici e doveri"
+        ]
+      },
+      {
+        "id": "06-fondamenti-economia",
+        "title": "Bisogni, beni e sistema economico",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "I bisogni economici",
+          "Beni e servizi",
+          "L'attività economica: produzione, scambio, consumo",
+          "I sistemi economici: liberista, collettivista, misto",
+          "Gli operatori economici e il circuito economico"
+        ]
+      },
+      {
+        "id": "07-famiglie-imprese",
+        "title": "Famiglie e imprese",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Le famiglie: reddito, consumo e risparmio",
+          "L'impresa e l'imprenditore",
+          "I fattori produttivi e la loro remunerazione",
+          "Costi, ricavi e profitto",
+          "I settori produttivi"
+        ]
+      },
+      {
+        "id": "08-parlamento-presidente",
+        "title": "Il Parlamento e il Presidente della Repubblica",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Il Parlamento: bicameralismo ed elezioni",
+          "Organizzazione e funzioni delle Camere",
+          "Come nasce una legge",
+          "Il referendum e la revisione costituzionale",
+          "Il Presidente della Repubblica"
+        ]
+      },
+      {
+        "id": "09-governo-magistratura",
+        "title": "Governo, magistratura e garanzie",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Il Governo: composizione e formazione",
+          "Le funzioni del Governo e i decreti",
+          "La magistratura e i suoi principi",
+          "La Corte costituzionale",
+          "La pubblica amministrazione"
+        ]
+      },
+      {
+        "id": "10-autonomie-ue",
+        "title": "Autonomie locali, comunità internazionale e Unione europea",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Regioni, Comuni e Città metropolitane",
+          "Il diritto internazionale e l'ONU",
+          "Le tappe dell'integrazione europea",
+          "Le istituzioni dell'Unione europea",
+          "Fonti europee e cittadinanza europea"
+        ]
+      },
+      {
+        "id": "11-mercato",
+        "title": "Il mercato",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Il mercato e la domanda",
+          "L'offerta",
+          "Il prezzo di equilibrio",
+          "Concorrenza perfetta e monopolio",
+          "Oligopolio, concorrenza monopolistica e antitrust",
+          "Il mercato del lavoro e la disoccupazione"
+        ]
+      },
+      {
+        "id": "12-moneta-stato-economia",
+        "title": "Moneta, inflazione e Stato nell'economia",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "La moneta: funzioni e forme",
+          "Le banche e la Banca centrale europea",
+          "L'inflazione",
+          "Il ruolo dello Stato nell'economia",
+          "Entrate pubbliche, tributi e bilancio dello Stato",
+          "Politiche keynesiane e liberiste, sviluppo sostenibile"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "inglese",
+    "name": "Inglese",
+    "units": [
+      {
+        "id": "01-to-be-presentarsi",
+        "title": "Presentarsi: il verbo to be",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Pronomi soggetto e verbo to be affermativo",
+          "To be negativo, domande e risposte brevi",
+          "Saluti e presentazioni: nome, età, nazionalità",
+          "Alfabeto, numeri e spelling",
+          "Question words: what, where, who, how old"
+        ]
+      },
+      {
+        "id": "02-famiglia-have-got",
+        "title": "Famiglia e possesso: have got",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Have got: tutte le forme",
+          "Aggettivi possessivi",
+          "Genitivo sassone",
+          "La famiglia e la descrizione fisica",
+          "This, that, these, those e plurali dei nomi"
+        ]
+      },
+      {
+        "id": "03-casa-there-is",
+        "title": "Casa e città: there is / there are",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "There is e there are",
+          "Articoli a/an, the e some/any",
+          "Preposizioni di luogo",
+          "La casa, le stanze e i mobili",
+          "Descrivere la propria città"
+        ]
+      },
+      {
+        "id": "04-present-simple",
+        "title": "Routine quotidiana: present simple",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Present simple affermativo e terza persona -s",
+          "Negazioni e domande con do/does",
+          "Avverbi di frequenza",
+          "Daily routine e chiedere l'ora",
+          "Preposizioni di tempo: at, on, in"
+        ]
+      },
+      {
+        "id": "05-present-continuous",
+        "title": "Azioni in corso: present continuous",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Present continuous: forma e uso",
+          "Present simple o present continuous",
+          "Like, love, hate + -ing",
+          "Tempo libero e sport",
+          "Abbigliamento e descrivere cosa indossa qualcuno"
+        ]
+      },
+      {
+        "id": "06-cibo-acquisti",
+        "title": "Cibo e acquisti: countable e uncountable",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Nomi numerabili e non numerabili",
+          "How much, how many, much, many, a lot of",
+          "Cibo e bevande",
+          "Fare acquisti: prezzi e denaro",
+          "Ordinare al bar e al ristorante"
+        ]
+      },
+      {
+        "id": "07-can-imperativo",
+        "title": "Abilità, richieste e indicazioni: can e imperativo",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Can per abilità e permesso",
+          "Can e could per chiedere qualcosa",
+          "Pronomi complemento oggetto",
+          "Imperativo",
+          "Chiedere e dare indicazioni stradali"
+        ]
+      },
+      {
+        "id": "08-past-simple",
+        "title": "Raccontare il passato: past simple",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Was e were",
+          "Past simple dei verbi regolari",
+          "Past simple dei verbi irregolari",
+          "Negazioni e domande al past simple",
+          "Espressioni di tempo: yesterday, last, ago",
+          "Raccontare un fine settimana o una biografia"
+        ]
+      },
+      {
+        "id": "09-past-continuous-obblighi",
+        "title": "Past continuous, obblighi e consigli",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Past continuous: forma e uso",
+          "Past simple e past continuous con when e while",
+          "Must e mustn't",
+          "Have to e don't have to",
+          "Should per dare consigli"
+        ]
+      },
+      {
+        "id": "10-futuro",
+        "title": "Parlare del futuro: going to, will, present continuous",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Be going to per intenzioni",
+          "Will per previsioni, decisioni e promesse",
+          "Present continuous per programmi",
+          "Fare inviti, accettare e rifiutare",
+          "Il tempo atmosferico e le previsioni"
+        ]
+      },
+      {
+        "id": "11-comparativi-superlativi",
+        "title": "Confrontare: comparativi e superlativi",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Comparativo di maggioranza",
+          "Superlativo relativo",
+          "Comparativi e superlativi irregolari",
+          "As... as e comparativo di minoranza",
+          "Avverbi di modo"
+        ]
+      },
+      {
+        "id": "12-present-perfect",
+        "title": "Esperienze: present perfect",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Present perfect: forma e participi",
+          "Ever e never per le esperienze",
+          "Just, already, yet",
+          "For e since",
+          "Present perfect o past simple"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "spagnolo",
+    "name": "Spagnolo",
+    "units": [
+      {
+        "id": "01-presentarse",
+        "title": "Presentarsi: ser, llamarse, tener",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Alfabeto, pronuncia e accento",
+          "Saludos y despedidas: tú e usted",
+          "Pronomi soggetto e presente di ser, llamarse, tener",
+          "Nazionalità, numeri ed età",
+          "Articoli determinativi e indeterminativi",
+          "Genere e numero di nomi e aggettivi"
+        ]
+      },
+      {
+        "id": "02-familia-descripcion",
+        "title": "La famiglia e descrivere le persone",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Aggettivi possessivi",
+          "La famiglia",
+          "Descrivere aspetto e carattere: ser, tener, llevar",
+          "Dimostrativi: este, ese, aquel",
+          "Muy e mucho"
+        ]
+      },
+      {
+        "id": "03-casa-hay-estar",
+        "title": "Casa e città: hay, estar, ser o estar",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Hay e está/están",
+          "Ser o estar: gli usi di base",
+          "Preposizioni e avverbi di luogo",
+          "La casa e gli oggetti",
+          "La città, i negozi e i servizi"
+        ]
+      },
+      {
+        "id": "04-presente",
+        "title": "La giornata: il presente indicativo",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Presente dei verbi regolari in -ar, -er, -ir",
+          "Presente con dittongo: e>ie, o>ue, e>i",
+          "Irregolari alla prima persona e il verbo ir",
+          "Verbi riflessivi",
+          "La routine quotidiana, l'ora e la frequenza"
+        ]
+      },
+      {
+        "id": "05-gustos",
+        "title": "Gusti e preferenze: gustar",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Gustar, encantar e i pronomi indiretti",
+          "También, tampoco, a mí sí, a mí no",
+          "Querer e preferir",
+          "Il tempo libero",
+          "Dare un'opinione: creo que, para mí"
+        ]
+      },
+      {
+        "id": "06-compras-comida",
+        "title": "Cibo e acquisti",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Cibo, bevande e quantità",
+          "Fare la spesa e comprare vestiti: cuánto cuesta",
+          "Pronomi complemento diretto",
+          "Indefiniti: algo, nada, alguien, nadie",
+          "Al ristorante: ordinare e pagare"
+        ]
+      },
+      {
+        "id": "07-gerundio-comparativos",
+        "title": "Estar + gerundio, comparativi e obblighi",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Il gerundio ed estar + gerundio",
+          "Comparativi di maggioranza, minoranza e uguaglianza",
+          "Superlativi e forme irregolari",
+          "Tener que e hay que",
+          "Ir e venir, llevar e traer",
+          "Salute e malesseri: doler"
+        ]
+      },
+      {
+        "id": "08-preterito-perfecto",
+        "title": "Il passato recente: pretérito perfecto",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Participio passato e pretérito perfecto",
+          "Participi irregolari",
+          "Marcatori: hoy, esta semana, ya, todavía no",
+          "Acabar de + infinitivo",
+          "Raccontare esperienze"
+        ]
+      },
+      {
+        "id": "09-preterito-indefinido",
+        "title": "Il passato concluso: pretérito indefinido",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Indefinido dei verbi regolari",
+          "Indefinido irregolare: ser, ir, estar, tener, hacer",
+          "Altri indefinidos irregolari",
+          "Marcatori: ayer, el año pasado, en 2010",
+          "Perfecto o indefinido",
+          "Raccontare una biografia"
+        ]
+      },
+      {
+        "id": "10-preterito-imperfecto",
+        "title": "Descrivere il passato: pretérito imperfecto",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Imperfecto regolare e irregolare (ser, ir, ver)",
+          "Abitudini e descrizioni nel passato",
+          "Imperfecto o indefinido",
+          "Estar + gerundio al passato",
+          "Connettivi per raccontare"
+        ]
+      },
+      {
+        "id": "11-futuro-planes",
+        "title": "Progetti e futuro",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Ir a + infinitivo e pensar + infinitivo",
+          "Futuro semplice regolare",
+          "Futuro semplice irregolare",
+          "Previsioni e tempo atmosferico",
+          "Por e para",
+          "Fare piani e inviti"
+        ]
+      },
+      {
+        "id": "12-imperativo",
+        "title": "Istruzioni e consigli: l'imperativo",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Imperativo affermativo: tú e vosotros",
+          "Imperativo affermativo: usted e ustedes",
+          "Imperativo con i pronomi",
+          "Chiedere e dare indicazioni stradali",
+          "Dare consigli e istruzioni"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "geografia",
+    "name": "Geografia",
+    "units": [
+      {
+        "id": "01-strumenti-geografia",
+        "title": "Gli strumenti della geografia",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Paesaggio, territorio e ambiente",
+          "Orientamento e coordinate geografiche",
+          "Le carte geografiche: scala, proiezioni e tipi",
+          "Grafici, tabelle e indicatori",
+          "Strumenti digitali: satelliti, GPS e GIS"
+        ]
+      },
+      {
+        "id": "02-terra-clima-ambienti",
+        "title": "La Terra: rilievi, acque, climi",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Rilievi, pianure e forze che modellano la Terra",
+          "Le acque: oceani, fiumi e laghi",
+          "Il clima: elementi e fattori",
+          "Fasce climatiche e biomi",
+          "I rischi naturali: terremoti, vulcani, dissesto idrogeologico"
+        ]
+      },
+      {
+        "id": "03-italia-territorio-popolazione",
+        "title": "L'Italia: territorio e popolazione",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Rilievi, pianure e coste italiane",
+          "Clima e acque dell'Italia",
+          "La popolazione italiana",
+          "Immigrazione ed emigrazione",
+          "Regioni, città e ordinamento del territorio"
+        ]
+      },
+      {
+        "id": "04-italia-economia",
+        "title": "L'economia italiana",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Agricoltura, allevamento e pesca",
+          "Industria e distretti industriali",
+          "Servizi, commercio e turismo",
+          "Il divario tra Nord e Sud",
+          "L'Italia nell'economia globale"
+        ]
+      },
+      {
+        "id": "05-europa-fisica-popolazione",
+        "title": "L'Europa: ambiente e popolazione",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Confini, rilievi e acque dell'Europa",
+          "Climi e ambienti europei",
+          "Popolazione, lingue e religioni",
+          "Le città europee",
+          "Migrazioni in Europa"
+        ]
+      },
+      {
+        "id": "06-unione-europea",
+        "title": "L'Unione europea",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Le tappe dell'integrazione europea",
+          "Le istituzioni dell'Unione",
+          "Mercato unico, euro e Schengen",
+          "Le politiche e i fondi europei",
+          "L'economia europea"
+        ]
+      },
+      {
+        "id": "07-stati-europei",
+        "title": "Gli Stati d'Europa",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Europa mediterranea: Spagna, Portogallo, Grecia",
+          "Europa occidentale: Francia e Benelux",
+          "Europa centrale: Germania, Austria, Svizzera",
+          "Europa settentrionale: Regno Unito e Paesi nordici",
+          "Europa orientale e Russia"
+        ]
+      },
+      {
+        "id": "08-popolazione-mondiale",
+        "title": "La popolazione mondiale",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "La crescita della popolazione e la transizione demografica",
+          "Distribuzione e densità",
+          "Indicatori demografici e struttura per età",
+          "Le migrazioni internazionali",
+          "Lingue, religioni e culture nel mondo"
+        ]
+      },
+      {
+        "id": "09-citta-urbanizzazione",
+        "title": "Le città e l'urbanizzazione",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Il processo di urbanizzazione",
+          "Metropoli, megalopoli e città globali",
+          "Le città dei Paesi poveri: slum e baraccopoli",
+          "Verso la città sostenibile"
+        ]
+      },
+      {
+        "id": "10-economia-globalizzazione",
+        "title": "Economia mondiale e globalizzazione",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Che cos'è la globalizzazione: attori e multinazionali",
+          "Agricoltura e allevamento nel mondo",
+          "Industria e delocalizzazione",
+          "Commercio internazionale e finanza",
+          "Trasporti, comunicazioni e turismo"
+        ]
+      },
+      {
+        "id": "11-sviluppo-disuguaglianze",
+        "title": "Sviluppo e disuguaglianze",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Misurare lo sviluppo: PIL e ISU",
+          "Nord e Sud del mondo",
+          "Fame, acqua e salute",
+          "ONU e organizzazioni economiche internazionali",
+          "Cooperazione e Agenda 2030"
+        ]
+      },
+      {
+        "id": "12-risorse-ambiente",
+        "title": "Risorse, energia e ambiente",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Risorse rinnovabili e non rinnovabili",
+          "Le fonti di energia",
+          "L'acqua come risorsa",
+          "Il cambiamento climatico",
+          "Economia circolare e sviluppo sostenibile"
+        ]
+      },
+      {
+        "id": "13-asia",
+        "title": "L'Asia",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "L'Asia: quadro fisico e umano",
+          "La Cina",
+          "L'India",
+          "Il Giappone e le economie dell'Asia orientale",
+          "Il Medio Oriente e il petrolio"
+        ]
+      },
+      {
+        "id": "14-africa-americhe-oceania",
+        "title": "Africa, Americhe e Oceania",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "L'Africa: ambienti, popoli e sviluppo",
+          "Gli Stati Uniti",
+          "L'America latina e il Brasile",
+          "L'Oceania e l'Australia"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "informatica",
+    "name": "Informatica",
+    "units": [
+      {
+        "id": "01-dati-e-codifica",
+        "title": "Informazioni, dati e codifica",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Dati e informazioni, analogico e digitale",
+          "Bit, byte e multipli",
+          "Il sistema binario e la conversione da e verso decimale",
+          "Sistema esadecimale e operazioni in binario",
+          "Codifica di testi, immagini e suoni"
+        ]
+      },
+      {
+        "id": "02-hardware",
+        "title": "Architettura del computer",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Tipi di computer e schema di von Neumann",
+          "La CPU e il ciclo di esecuzione",
+          "Memoria centrale: RAM e ROM",
+          "Memorie di massa: magnetiche, ottiche e a stato solido",
+          "Periferiche di input e di output"
+        ]
+      },
+      {
+        "id": "03-software-sistema-operativo",
+        "title": "Software e sistema operativo",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Software di base e software applicativo, licenze",
+          "Funzioni del sistema operativo",
+          "Interfaccia grafica: desktop, finestre e impostazioni",
+          "File e cartelle: nomi, estensioni e percorsi",
+          "Gestire file e cartelle: copiare, spostare, comprimere",
+          "Linguaggi di programmazione: cenni"
+        ]
+      },
+      {
+        "id": "04-videoscrittura",
+        "title": "Elaborazione dei testi",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Creare, salvare e impaginare un documento",
+          "Formattazione del carattere e del paragrafo",
+          "Elenchi, tabulazioni, intestazioni e piè di pagina",
+          "Tabelle in un documento",
+          "Immagini, forme e caselle di testo",
+          "Lettera commerciale e stampa unione"
+        ]
+      },
+      {
+        "id": "05-foglio-elettronico-base",
+        "title": "Foglio elettronico: le basi",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Cartelle, fogli, celle e tipi di dati",
+          "Formattazione delle celle e formati numerici",
+          "Formule e operatori aritmetici",
+          "Riferimenti relativi, assoluti e misti",
+          "Funzioni SOMMA, MEDIA, MIN, MAX, CONTA.NUMERI",
+          "Percentuali, IVA e sconti con il foglio elettronico"
+        ]
+      },
+      {
+        "id": "06-presentazioni",
+        "title": "Presentazioni multimediali",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Progettare una presentazione efficace",
+          "Diapositive, layout e temi",
+          "Testo, immagini, grafici e multimedia",
+          "Transizioni, animazioni ed esposizione"
+        ]
+      },
+      {
+        "id": "07-foglio-elettronico-funzioni",
+        "title": "Foglio elettronico: funzioni logiche e di ricerca",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Operatori di confronto e funzione SE",
+          "Funzioni E, O e SE annidati",
+          "CONTA.SE e SOMMA.SE",
+          "CERCA.VERT e tabelle di riferimento",
+          "Ordinare e filtrare i dati",
+          "Funzioni di data e arrotondamento"
+        ]
+      },
+      {
+        "id": "08-grafici",
+        "title": "Grafici e analisi dei dati",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Elementi di un grafico",
+          "Scegliere il grafico giusto: istogramma, linee, torta, dispersione",
+          "Creare e modificare un grafico",
+          "Formattazione condizionale e stampa del foglio",
+          "Un caso pratico: fattura e prospetto vendite"
+        ]
+      },
+      {
+        "id": "09-reti-internet",
+        "title": "Reti e Internet",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Che cos'è una rete: LAN, WAN e dispositivi",
+          "Internet, indirizzi IP e protocolli",
+          "Il web: browser, URL e motori di ricerca",
+          "Posta elettronica e PEC",
+          "Cloud, condivisione e lavoro collaborativo",
+          "Valutare l'affidabilità delle fonti online"
+        ]
+      },
+      {
+        "id": "10-sicurezza-privacy",
+        "title": "Sicurezza, privacy e diritto d'autore",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Malware e attacchi: virus, phishing, ransomware",
+          "Password, autenticazione e backup",
+          "Privacy e protezione dei dati personali (GDPR)",
+          "Diritto d'autore e licenze del software e dei contenuti",
+          "Identità digitale: SPID e firma digitale"
+        ]
+      },
+      {
+        "id": "11-algoritmi",
+        "title": "Algoritmi e diagrammi di flusso",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Problemi, algoritmi ed esecutore",
+          "Variabili, costanti, input e output",
+          "Diagrammi di flusso e struttura di sequenza",
+          "Struttura di selezione",
+          "Struttura di iterazione",
+          "Logica booleana: AND, OR, NOT"
+        ]
+      }
     ]
   },
   {
     "id": "scienze",
     "name": "Scienze della Terra e biologia",
     "units": [
-      { "id": "01-universo-sistema-solare", "title": "L'universo e il sistema solare", "ready": false },
-      { "id": "02-terra-moti", "title": "La Terra e i suoi moti", "ready": false },
-      { "id": "03-atmosfera-clima", "title": "Atmosfera e clima", "ready": false },
-      { "id": "04-idrosfera", "title": "L'idrosfera", "ready": false },
-      { "id": "05-minerali-rocce", "title": "Minerali e rocce", "ready": false },
-      { "id": "06-vulcani-terremoti", "title": "Vulcani e terremoti", "ready": false },
-      { "id": "07-cellula", "title": "La cellula", "ready": false },
-      { "id": "08-biomolecole", "title": "Le molecole della vita", "ready": false },
-      { "id": "09-ereditarieta-dna", "title": "Ereditarietà e DNA", "ready": false },
-      { "id": "10-evoluzione-ecosistemi", "title": "Evoluzione ed ecosistemi", "ready": false }
+      {
+        "id": "01-metodo-materia",
+        "title": "Metodo scientifico e materia",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Il metodo scientifico",
+          "Grandezze e unità di misura",
+          "Gli stati della materia",
+          "Atomi, elementi e composti"
+        ]
+      },
+      {
+        "id": "02-universo-sistema-solare",
+        "title": "L'Universo e il Sistema solare",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Le stelle e la sfera celeste",
+          "La vita delle stelle",
+          "Galassie e origine dell'Universo",
+          "Il Sole",
+          "I pianeti, le leggi di Keplero e la gravitazione",
+          "I corpi minori"
+        ]
+      },
+      {
+        "id": "03-terra-luna",
+        "title": "La Terra e la Luna",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Forma e dimensioni della Terra",
+          "Coordinate geografiche e carte",
+          "Il moto di rotazione e le sue conseguenze",
+          "Il moto di rivoluzione e le stagioni",
+          "La Luna: moti, fasi ed eclissi",
+          "Misurare il tempo: ore, fusi orari, calendario"
+        ]
+      },
+      {
+        "id": "04-atmosfera-clima",
+        "title": "L'atmosfera e il clima",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Composizione e strati dell'atmosfera",
+          "Temperatura e pressione",
+          "I venti",
+          "Umidità, nuvole e precipitazioni",
+          "Tempo e clima",
+          "Il cambiamento climatico e l'inquinamento dell'aria"
+        ]
+      },
+      {
+        "id": "05-idrosfera",
+        "title": "L'idrosfera",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Il ciclo dell'acqua",
+          "Oceani e mari",
+          "Onde, maree e correnti",
+          "Fiumi, laghi e ghiacciai",
+          "Le acque sotterranee e l'inquinamento"
+        ]
+      },
+      {
+        "id": "06-minerali-rocce",
+        "title": "Minerali, rocce e interno della Terra",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "I minerali",
+          "Le rocce magmatiche",
+          "Le rocce sedimentarie",
+          "Le rocce metamorfiche e il ciclo litogenetico",
+          "La struttura interna della Terra"
+        ]
+      },
+      {
+        "id": "07-vulcani-terremoti-tettonica",
+        "title": "Vulcani, terremoti e tettonica delle placche",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "I vulcani e le eruzioni",
+          "Il rischio vulcanico in Italia",
+          "I terremoti e le onde sismiche",
+          "Misurare i terremoti e il rischio sismico",
+          "La tettonica delle placche",
+          "Margini di placca e formazione delle montagne"
+        ]
+      },
+      {
+        "id": "08-chimica-vita",
+        "title": "Le molecole della vita",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Le caratteristiche dei viventi",
+          "L'acqua e i sali minerali",
+          "Carboidrati e lipidi",
+          "Le proteine",
+          "Gli acidi nucleici"
+        ]
+      },
+      {
+        "id": "09-cellula",
+        "title": "La cellula",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Il microscopio e la teoria cellulare",
+          "Cellule procariote ed eucariote",
+          "La membrana e i trasporti",
+          "Gli organuli: cellula animale e vegetale",
+          "ATP ed enzimi",
+          "Fotosintesi e respirazione cellulare"
+        ]
+      },
+      {
+        "id": "10-riproduzione-genetica",
+        "title": "Riproduzione cellulare ed ereditarietà",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "DNA, geni e cromosomi",
+          "La mitosi",
+          "La meiosi e la riproduzione sessuata",
+          "Le leggi di Mendel",
+          "L'ereditarietà nell'uomo e le malattie genetiche"
+        ]
+      },
+      {
+        "id": "11-evoluzione-ecologia",
+        "title": "Evoluzione, biodiversità ed ecosistemi",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "La classificazione dei viventi",
+          "Darwin e la selezione naturale",
+          "Ecosistemi e biosfera",
+          "Catene e reti alimentari",
+          "I cicli biogeochimici e l'impatto umano"
+        ]
+      },
+      {
+        "id": "12-corpo-umano",
+        "title": "Il corpo umano e la salute",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Tessuti, organi e apparati",
+          "Alimentazione e apparato digerente",
+          "Apparato respiratorio e circolatorio",
+          "Le difese immunitarie",
+          "Il sistema nervoso",
+          "Apparato riproduttore ed educazione alla salute"
+        ]
+      }
     ]
   },
   {
     "id": "fisica",
     "name": "Fisica",
     "units": [
-      { "id": "01-grandezze-misure", "title": "Grandezze e misure", "ready": false },
-      { "id": "02-vettori-forze", "title": "Vettori e forze", "ready": false },
-      { "id": "03-equilibrio-solidi", "title": "L'equilibrio dei solidi", "ready": false },
-      { "id": "04-equilibrio-fluidi", "title": "L'equilibrio dei fluidi", "ready": false },
-      { "id": "05-moto-rettilineo", "title": "Il moto rettilineo", "ready": false },
-      { "id": "06-moti-piano", "title": "Accelerazione e moti nel piano", "ready": false },
-      { "id": "07-principi-dinamica", "title": "I principi della dinamica", "ready": false },
-      { "id": "08-lavoro-energia", "title": "Lavoro ed energia", "ready": false },
-      { "id": "09-temperatura-calore", "title": "Temperatura e calore", "ready": false }
+      {
+        "id": "01-grandezze-e-misure",
+        "title": "Grandezze fisiche e misure",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Che cos'è la fisica e il metodo sperimentale",
+          "Grandezze fisiche e Sistema Internazionale",
+          "Multipli, sottomultipli e notazione scientifica",
+          "Lunghezza, area, volume, massa e tempo",
+          "Strumenti di misura: portata e sensibilità",
+          "Errori di misura e cifre significative"
+        ]
+      },
+      {
+        "id": "02-relazioni-tra-grandezze",
+        "title": "Relazioni tra grandezze e grafici",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Tabelle e grafici cartesiani di dati sperimentali",
+          "Proporzionalità diretta",
+          "Proporzionalità inversa",
+          "Proporzionalità quadratica",
+          "La densità"
+        ]
+      },
+      {
+        "id": "03-forze-equilibrio",
+        "title": "Forze ed equilibrio",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Le forze e il dinamometro",
+          "Grandezze vettoriali e somma di forze",
+          "Forza peso e massa",
+          "Forza elastica e legge di Hooke",
+          "Forza di attrito",
+          "Equilibrio di un corpo e leve"
+        ]
+      },
+      {
+        "id": "04-fluidi-pressione",
+        "title": "Pressione e fluidi",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "La pressione",
+          "Pressione nei liquidi: legge di Stevin",
+          "Principio di Pascal e vasi comunicanti",
+          "Principio di Archimede e galleggiamento",
+          "Pressione atmosferica"
+        ]
+      },
+      {
+        "id": "05-moto",
+        "title": "Il moto",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Sistema di riferimento, traiettoria e velocità media",
+          "Moto rettilineo uniforme e suo grafico",
+          "Accelerazione",
+          "Moto uniformemente accelerato",
+          "Caduta libera dei corpi"
+        ]
+      },
+      {
+        "id": "06-principi-dinamica",
+        "title": "I principi della dinamica",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Primo principio: l'inerzia",
+          "Secondo principio: F = m · a",
+          "Terzo principio: azione e reazione",
+          "Applicazioni: piano inclinato e moto circolare (cenni)"
+        ]
+      },
+      {
+        "id": "07-lavoro-energia",
+        "title": "Lavoro ed energia",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Il lavoro di una forza",
+          "La potenza",
+          "Energia cinetica",
+          "Energia potenziale gravitazionale ed elastica",
+          "Conservazione dell'energia meccanica e fonti di energia"
+        ]
+      },
+      {
+        "id": "08-temperatura-calore",
+        "title": "Temperatura e calore",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Temperatura e termometri, scale Celsius e Kelvin",
+          "Dilatazione termica",
+          "Calore, calore specifico e equilibrio termico",
+          "Passaggi di stato e calore latente",
+          "Propagazione del calore: conduzione, convezione, irraggiamento"
+        ]
+      },
+      {
+        "id": "09-elettricita-magnetismo",
+        "title": "Elettricità e magnetismo",
+        "year": 1,
+        "ready": false,
+        "plan": [
+          "Carica elettrica ed elettrizzazione",
+          "Corrente elettrica e differenza di potenziale",
+          "Legge di Ohm e resistenza",
+          "Circuiti in serie e in parallelo, potenza elettrica",
+          "Magneti, campo magnetico e onde elettromagnetiche"
+        ]
+      }
     ]
   },
   {
     "id": "chimica",
     "name": "Chimica",
     "units": [
-      { "id": "01-materia-stati", "title": "La materia e i suoi stati", "ready": false },
-      { "id": "02-miscugli-sostanze", "title": "Miscugli e sostanze pure", "ready": false },
-      { "id": "03-leggi-ponderali", "title": "Trasformazioni e leggi ponderali", "ready": false },
-      { "id": "04-atomo", "title": "L'atomo e le particelle subatomiche", "ready": false },
-      { "id": "05-tavola-periodica", "title": "La tavola periodica", "ready": false },
-      { "id": "06-legami", "title": "I legami chimici", "ready": false },
-      { "id": "07-mole", "title": "La mole", "ready": false },
-      { "id": "08-nomenclatura-reazioni", "title": "Nomenclatura e reazioni", "ready": false },
-      { "id": "09-soluzioni-acidi-basi", "title": "Soluzioni, acidi e basi", "ready": false }
-    ]
-  },
-  {
-    "id": "informatica",
-    "name": "Tecnologie informatiche",
-    "units": [
-      { "id": "01-hardware", "title": "Com'è fatto un computer", "ready": false },
-      { "id": "02-sistemi-operativi", "title": "Sistemi operativi e file", "ready": false },
-      { "id": "03-rappresentazione-informazione", "title": "Rappresentare l'informazione", "ready": false },
-      { "id": "04-reti-internet", "title": "Reti e internet", "ready": false },
-      { "id": "05-foglio-calcolo", "title": "Il foglio di calcolo", "ready": false },
-      { "id": "06-algoritmi", "title": "Algoritmi e diagrammi di flusso", "ready": false },
-      { "id": "07-programmazione", "title": "I primi programmi", "ready": false }
+      {
+        "id": "01-materia-e-misure",
+        "title": "La materia e le sue misure",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "La chimica e la sicurezza in laboratorio",
+          "Grandezze, massa, volume e densità",
+          "Sostanze pure, elementi e composti",
+          "Miscugli omogenei ed eterogenei",
+          "Metodi di separazione dei miscugli"
+        ]
+      },
+      {
+        "id": "02-stati-trasformazioni",
+        "title": "Stati della materia e trasformazioni",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Stati di aggregazione e modello particellare",
+          "Passaggi di stato",
+          "Curva di riscaldamento e temperatura di fusione ed ebollizione",
+          "Trasformazioni fisiche e trasformazioni chimiche"
+        ]
+      },
+      {
+        "id": "03-leggi-ponderali",
+        "title": "Leggi ponderali e teoria atomica",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Legge di Lavoisier: conservazione della massa",
+          "Legge di Proust: proporzioni definite",
+          "Legge di Dalton e teoria atomica",
+          "Simboli, formule e molecole"
+        ]
+      },
+      {
+        "id": "04-atomo",
+        "title": "La struttura dell'atomo",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Protoni, neutroni ed elettroni",
+          "Numero atomico, numero di massa e isotopi",
+          "Modelli atomici: Thomson e Rutherford",
+          "Modello di Bohr e livelli di energia",
+          "Configurazione elettronica"
+        ]
+      },
+      {
+        "id": "05-tavola-periodica",
+        "title": "La tavola periodica",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Da Mendeleev alla tavola periodica moderna",
+          "Gruppi e periodi",
+          "Metalli, non metalli e semimetalli",
+          "Proprietà periodiche: raggio atomico, energia di ionizzazione, elettronegatività",
+          "Elettroni di valenza e simboli di Lewis"
+        ]
+      },
+      {
+        "id": "06-legami-chimici",
+        "title": "I legami chimici",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Regola dell'ottetto",
+          "Legame ionico",
+          "Legame covalente puro e polare",
+          "Legame metallico",
+          "Forme delle molecole e polarità",
+          "Forze intermolecolari e legame a idrogeno"
+        ]
+      },
+      {
+        "id": "07-mole-stechiometria",
+        "title": "Mole e reazioni chimiche",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Massa atomica e massa molecolare",
+          "La mole e il numero di Avogadro",
+          "Massa molare e conversioni grammi-moli",
+          "Equazioni chimiche e bilanciamento",
+          "Calcoli stechiometrici semplici"
+        ]
+      },
+      {
+        "id": "08-nomenclatura",
+        "title": "Nomenclatura dei composti inorganici",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Valenza e numero di ossidazione",
+          "Ossidi e anidridi",
+          "Idrossidi e acidi",
+          "Sali",
+          "Nomenclatura tradizionale e IUPAC a confronto"
+        ]
+      },
+      {
+        "id": "09-reazioni-soluzioni",
+        "title": "Reazioni e soluzioni",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Tipi di reazioni: sintesi, decomposizione, scambio",
+          "Ossidoriduzioni: cenni",
+          "Velocità di reazione e catalizzatori",
+          "Soluzioni, solubilità e concentrazione",
+          "Molarità e diluizione"
+        ]
+      },
+      {
+        "id": "10-acidi-basi",
+        "title": "Acidi, basi e pH",
+        "year": 2,
+        "ready": false,
+        "plan": [
+          "Proprietà di acidi e basi",
+          "Teorie di Arrhenius e di Brønsted-Lowry",
+          "La scala del pH",
+          "Indicatori e misura del pH",
+          "Reazione di neutralizzazione"
+        ]
+      }
     ]
   }
 ]

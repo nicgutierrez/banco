@@ -1,6 +1,6 @@
 # Banco
 
-Sito personale di studio per preparare da privatista l'**esame di idoneità** del primo biennio di un istituto tecnico (indirizzo informatico), e poi la maturità. Un solo utente: Nic, adulto che lavora come programmatore e studia quando riesce, la sera, dal computer.
+Sito personale di studio per preparare da privatista l'**esame di idoneità** alla terza classe di un **istituto tecnico economico, indirizzo Amministrazione, finanza e marketing (AFM)**, e poi la maturità. Seconda lingua: **spagnolo**. Un solo utente: Nic, adulto che lavora come programmatore e studia quando riesce, la sera, dal computer.
 
 ## Decisioni prese (non rimetterle in discussione senza chiedere)
 
@@ -9,7 +9,9 @@ Sito personale di studio per preparare da privatista l'**esame di idoneità** de
 - **Verifica di unità:** 20 domande, 40 minuti, voto in decimi (minimo 2, arrotondato al mezzo voto). Si sblocca solo a moduli tutti completati, poi si fa quando si vuole. Con 6 l'unità è superata, con 8 padroneggiata. Durante la verifica nessuna correzione: si vede alla consegna.
 - **Gamification che premia e non punisce:** punti, livelli, traguardi. Un'unità superata si **incrina** se non viene toccata per 21 giorni; ritentare la verifica la ripara. Regole e soglie in `lib/game.ts` (`RULES`).
 - **Le unità non si bloccano tra loro:** solo la verifica è bloccata finché mancano moduli.
-- **Storia** è la materia pilota. Le altre sono nel catalogo come "in preparazione".
+- **Storia** è la materia pilota. Le altre sono nel catalogo come "in preparazione", con i moduli già previsti.
+- **Programma di riferimento:** vecchio ordinamento (DPR 88/2010, linee guida del primo biennio, settore economico), più i programmi svolti reali di alcuni ITE. La riforma dei tecnici (DM 29/2026) parte dalle prime del 2026/27: chi entra in terza nel 2027/28 entra in una classe del vecchio ordinamento. Se l'esame slitta al 2028 o la scuola indica altro, il piano va riallineato.
+- **Materie in piano:** storia, italiano, matematica, economia aziendale, diritto ed economia, inglese, spagnolo, geografia, informatica, scienze della Terra e biologia, fisica (primo anno), chimica (secondo anno). Fuori dal sito: scienze motorie (prova pratica) e religione.
 - **Contenuti nel repo** (Markdown + JSON), non in un CMS: ogni nuova unità è una pull request revisionabile. Hygraph è stato considerato e scartato per ora.
 - **Backend:** Supabase (auth + Postgres). Login con **link via email**, registrazioni chiuse (`shouldCreateUser: false`).
 - **Layout:** app a schermo intero, barra fissa in alto, contenuto che scorre dentro (`.shell` / `.main`). Desktop prima, ma deve funzionare anche da telefono.
@@ -35,7 +37,7 @@ Prima di proporre una modifica: `npm run typecheck && npm run lint && npm test`.
 
 ## Dove sta cosa
 
-- `content/materie.json`: catalogo di materie e unità previste (`ready: true` solo per quelle scritte). L'ordine nel catalogo è l'ordine di studio.
+- `content/materie.json`: il **piano completo** del biennio. Per ogni materia le unità in ordine di studio, con `year` (1 o 2), `ready` (`true` solo se scritta) e `plan` (titoli dei moduli previsti). Scrivendo un'unità, i titoli dei moduli in `unit.json` devono coincidere con `plan` (lo controlla un test); se servono cambi, aggiorna anche `plan`.
 - `content/<materia>/<unità>/unit.json` + un `.md` per lezione. Schema in `lib/types.ts`.
 - `lib/game.ts`: regole, voti, livelli, stati di unità, traguardi. Funzioni pure, testate.
 - `lib/overview.ts`: calcola stati, "riprendi da dove eri", unità da riparare. Pura, testata.
@@ -50,7 +52,7 @@ Moduli e unità sono salvati come stringhe `materia/unità/modulo` e `materia/un
 
 ## Scrivere una nuova unità
 
-1. Aggiungi la cartella `content/<materia>/<id-unità>/` con `unit.json` e le lezioni `.md`, e metti `ready: true` nel catalogo. `number` deve essere la posizione nel catalogo.
+1. Parti dal `plan` dell'unità in `materie.json`. Aggiungi la cartella `content/<materia>/<id-unità>/` con `unit.json` e le lezioni `.md`, e metti `ready: true` nel catalogo. `number` deve essere la posizione nel catalogo.
 2. Ogni modulo: lezione di 400-700 parole con titoletti `##`, grassetti sui termini chiave, un riquadro finale `> **In breve.**`. Niente tabelle (non c'è remark-gfm).
 3. Ogni mini test: 5 domande sul solo contenuto di quella lezione. La verifica: 20 domande su tutta l'unità, ognuna con `topic` (il nome breve del modulo). Dalla seconda unità in poi, 3-4 domande della verifica sono di **ripasso** sulle unità precedenti, con `topic: "Ripasso"`.
 4. 4 opzioni per domanda, una sola difendibile, distrattori plausibili ma chiaramente sbagliati. Varia la posizione della risposta giusta. Spiegazione breve che dice anche perché i distrattori sono sbagliati quando serve.

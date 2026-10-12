@@ -28,31 +28,49 @@ export default async function MateriaPage({ params }: { params: Promise<{ materi
 
       <div className="row">
         <div className="col-main">
-          <div className="card flush">
-            {subject.units.map((entry, i) => {
-              const view = overview.byKey.get(unitKey(subject.id, entry.id))
-              if (!view) {
-                return (
-                  <div key={entry.id} className="list-row not-ready">
-                    <div className="dot">{i + 1}</div>
-                    <div className="grow"><div style={{ fontWeight: 700 }}>{entry.title}</div><div className="small muted">In preparazione</div></div>
-                  </div>
-                )
-              }
-              const s = view.status
-              const detail = [
-                `${s.completedModules} moduli su ${s.totalModules}`,
-                s.bestGrade !== null ? `miglior voto ${formatGrade(s.bestGrade)}` : null,
-              ].filter(Boolean).join(' · ')
-              return (
-                <Link key={entry.id} href={paths.unit(subject.id, entry.id)} className={`list-row state-${s.state}`}>
-                  <div className="dot">{view.unit.number}</div>
-                  <div className="grow"><div style={{ fontWeight: 700 }}>{view.unit.title}</div><div className="small muted">{detail}</div></div>
-                  <div className="state-label">{UNIT_STATE_LABEL[s.state]}</div>
-                </Link>
-              )
-            })}
-          </div>
+          {([1, 2] as const).map((year) => {
+            const entries = subject.units.filter((u) => u.year === year)
+            if (entries.length === 0) return null
+            return (
+              <section key={year} style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
+                <h2 className="section-title">{year === 1 ? 'Primo anno' : 'Secondo anno'}</h2>
+                <div className="card flush">
+                  {entries.map((entry) => {
+                    const n = subject.units.indexOf(entry) + 1
+                    const view = overview.byKey.get(unitKey(subject.id, entry.id))
+                    if (!view) {
+                      return (
+                        <details key={entry.id} className="plan-row">
+                          <summary className="list-row not-ready">
+                            <div className="dot">{n}</div>
+                            <div className="grow">
+                              <div style={{ fontWeight: 700 }}>{entry.title}</div>
+                              <div className="small muted">In preparazione · {entry.plan.length} moduli previsti</div>
+                            </div>
+                          </summary>
+                          <ol className="plan-list">
+                            {entry.plan.map((t) => <li key={t}>{t}</li>)}
+                          </ol>
+                        </details>
+                      )
+                    }
+                    const s = view.status
+                    const detail = [
+                      `${s.completedModules} moduli su ${s.totalModules}`,
+                      s.bestGrade !== null ? `miglior voto ${formatGrade(s.bestGrade)}` : null,
+                    ].filter(Boolean).join(' · ')
+                    return (
+                      <Link key={entry.id} href={paths.unit(subject.id, entry.id)} className={`list-row state-${s.state}`}>
+                        <div className="dot">{n}</div>
+                        <div className="grow"><div style={{ fontWeight: 700 }}>{view.unit.title}</div><div className="small muted">{detail}</div></div>
+                        <div className="state-label">{UNIT_STATE_LABEL[s.state]}</div>
+                      </Link>
+                    )
+                  })}
+                </div>
+              </section>
+            )
+          })}
         </div>
         <aside className="col-side">
           <div className="card">
@@ -62,7 +80,7 @@ export default async function MateriaPage({ params }: { params: Promise<{ materi
           </div>
           <div className="card">
             <h2>Prova di orale</h2>
-            <p className="muted" style={{ margin: 0 }}>All&apos;esame storia si porta all&apos;orale. Esponi un argomento in chat con Claude, che ti interroga come farebbe il professore.</p>
+            <p className="muted" style={{ margin: 0 }}>All&apos;esame molte materie si portano all&apos;orale. Esponi un argomento in chat con Claude, che ti interroga come farebbe il professore.</p>
           </div>
           <div className="card">
             <h2>Test finale di {subject.name}</h2>

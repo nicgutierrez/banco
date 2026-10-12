@@ -16,7 +16,7 @@ export default async function LoginPage({ searchParams }: { searchParams: Promis
             Riprendi sempre da dove eri rimasto.
           </p>
         </div>
-        <div style={{ color: 'var(--hero-muted)', fontSize: 14 }}>Preparazione all&apos;esame di idoneità · istituto tecnico, primo biennio</div>
+        <div style={{ color: 'var(--hero-muted)', fontSize: 14 }}>Preparazione all&apos;esame di idoneità · istituto tecnico economico AFM, primo biennio</div>
       </section>
       <div className="login-form-wrap">
         <LoginForm error={errore ? 'Il link non è valido o è scaduto. Fattene mandare uno nuovo.' : undefined} />
