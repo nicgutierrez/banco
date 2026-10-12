@@ -1,0 +1,368 @@
+{
+  "id": "01-preistoria-vicino-oriente",
+  "number": 1,
+  "title": "Preistoria e Vicino Oriente antico",
+  "summary": "Dai primi strumenti di pietra alla nascita dell'agricoltura, fino alle città dei Sumeri e ai grandi imperi della Mesopotamia e della Persia.",
+  "modules": [
+    {
+      "id": "01-paleolitico",
+      "title": "Prima della storia: il Paleolitico",
+      "minutes": 15,
+      "file": "01-paleolitico.md",
+      "quiz": [
+        {
+          "id": "m1q1",
+          "text": "Che cosa segna il passaggio dalla preistoria alla storia?",
+          "options": ["La scoperta del fuoco", "L'invenzione della scrittura", "La nascita dell'agricoltura", "La lavorazione dei metalli"],
+          "answer": 1,
+          "explanation": "La storia comincia con le prime testimonianze scritte, in Mesopotamia intorno al 3200 a.C."
+        },
+        {
+          "id": "m1q2",
+          "text": "Che cosa significa «Paleolitico»?",
+          "options": ["Età della pietra nuova", "Età dei metalli", "Età della pietra antica", "Età del fuoco"],
+          "answer": 2,
+          "explanation": "Paleo vuol dire antico, litico viene da pietra. Neolitico è invece l'età della pietra nuova."
+        },
+        {
+          "id": "m1q3",
+          "text": "Dove e quando compare Homo sapiens?",
+          "options": ["In Africa, circa 300.000 anni fa", "In Europa, circa 40.000 anni fa", "In Asia, circa 2 milioni di anni fa", "In Mesopotamia, circa 12.000 anni fa"],
+          "answer": 0,
+          "explanation": "La nostra specie nasce in Africa circa 300.000 anni fa e da lì si diffonde in tutti i continenti. 40.000 anni fa è invece quando si estingue l'uomo di Neanderthal."
+        },
+        {
+          "id": "m1q4",
+          "text": "Come vivevano gli esseri umani nel Paleolitico?",
+          "options": ["In villaggi stabili, coltivando cereali", "In città governate da un re", "Allevando capre e pecore in fattorie", "Come nomadi, con caccia, pesca e raccolta"],
+          "answer": 3,
+          "explanation": "Si spostavano in piccoli gruppi seguendo animali e stagioni. Villaggi, agricoltura e allevamento arrivano con il Neolitico."
+        },
+        {
+          "id": "m1q5",
+          "text": "Con quali fonti si studia soprattutto la preistoria?",
+          "options": ["Con le fonti materiali: strumenti, ossa, resti, pitture", "Con le cronache dei re", "Con le iscrizioni sulle tavolette d'argilla", "Con i racconti dei viaggiatori greci"],
+          "answer": 0,
+          "explanation": "Senza scrittura restano solo le tracce materiali, studiate dagli archeologi. Per datare i resti organici si usa il carbonio 14."
+        }
+      ]
+    },
+    {
+      "id": "02-neolitico",
+      "title": "La rivoluzione neolitica",
+      "minutes": 15,
+      "file": "02-neolitico.md",
+      "quiz": [
+        {
+          "id": "m2q1",
+          "text": "Che cosa si intende per rivoluzione neolitica?",
+          "options": ["L'invenzione della scrittura", "La scoperta del fuoco", "La nascita di agricoltura e allevamento", "La lavorazione del ferro"],
+          "answer": 2,
+          "explanation": "Intorno al 9500 a.C. gli esseri umani iniziano a coltivare piante e allevare animali, e il loro modo di vivere cambia del tutto."
+        },
+        {
+          "id": "m2q2",
+          "text": "Dove comincia la rivoluzione neolitica?",
+          "options": ["Nella Mezzaluna fertile, nel Vicino Oriente", "Nella pianura Padana", "Nella valle del Danubio", "Sulle coste della Grecia"],
+          "answer": 0,
+          "explanation": "La Mezzaluna fertile va dalla valle del Nilo e dalla Palestina, attraverso la Siria, fino alla Mesopotamia: lì crescevano frumento e orzo selvatici."
+        },
+        {
+          "id": "m2q3",
+          "text": "Perché con l'agricoltura gli esseri umani diventano sedentari?",
+          "options": ["Perché il clima diventa troppo freddo per spostarsi", "Perché devono restare vicino ai campi coltivati", "Perché un re glielo impone", "Perché non ci sono più animali da cacciare"],
+          "answer": 1,
+          "explanation": "Chi semina deve aspettare il raccolto e curare il campo: nascono così i primi villaggi stabili."
+        },
+        {
+          "id": "m2q4",
+          "text": "Che cosa sono le eccedenze?",
+          "options": ["Gli attrezzi di pietra levigata", "I villaggi circondati da mura", "Le tasse pagate al re", "Il cibo prodotto in più rispetto al bisogno"],
+          "answer": 3,
+          "explanation": "Le eccedenze si possono conservare e scambiare: da qui nascono commercio, proprietà e disuguaglianze."
+        },
+        {
+          "id": "m2q5",
+          "text": "Che cos'è il bronzo?",
+          "options": ["Un metallo puro più duro del ferro", "Un tipo di pietra levigata", "Una lega di rame e stagno", "Un'argilla cotta ad alta temperatura"],
+          "answer": 2,
+          "explanation": "Fondendo insieme rame e stagno si ottiene il bronzo, più duro del rame. Nel Vicino Oriente si diffonde intorno al 3000 a.C."
+        }
+      ]
+    },
+    {
+      "id": "03-sumeri",
+      "title": "La Mesopotamia e i Sumeri",
+      "minutes": 18,
+      "file": "03-sumeri.md",
+      "quiz": [
+        {
+          "id": "m3q1",
+          "text": "Tra quali fiumi si trova la Mesopotamia?",
+          "options": ["Nilo e Giordano", "Tigri ed Eufrate", "Indo e Gange", "Danubio e Reno"],
+          "answer": 1,
+          "explanation": "Mesopotamia significa «terra tra i fiumi»: il Tigri e l'Eufrate, nell'attuale Iraq."
+        },
+        {
+          "id": "m3q2",
+          "text": "Perché in Mesopotamia l'irrigazione favorisce la nascita delle città?",
+          "options": ["Perché canali e argini richiedono il lavoro organizzato di molte persone", "Perché l'acqua dei fiumi è salata", "Perché i fiumi servono come confini tra regni", "Perché le piene rendono inutile coltivare"],
+          "answer": 0,
+          "explanation": "Un villaggio da solo non può costruire grandi canali: serve un'autorità che organizzi il lavoro collettivo."
+        },
+        {
+          "id": "m3q3",
+          "text": "Com'erano organizzati politicamente i Sumeri?",
+          "options": ["In un unico regno con capitale Babilonia", "In un impero diviso in satrapie", "In città-stato indipendenti come Ur e Uruk", "In tribù nomadi senza capi"],
+          "answer": 2,
+          "explanation": "Ogni città-stato aveva il suo sovrano e il suo dio protettore, ed erano spesso in guerra tra loro."
+        },
+        {
+          "id": "m3q4",
+          "text": "Per quale scopo nasce la scrittura cuneiforme?",
+          "options": ["Per scrivere poesie religiose", "Per comunicare con altri popoli", "Per scrivere le leggi del re", "Per registrare i beni dei magazzini"],
+          "answer": 3,
+          "explanation": "I primi testi sono conti: quanti sacchi di orzo o quanti animali entrano ed escono dai magazzini del tempio."
+        },
+        {
+          "id": "m3q5",
+          "text": "Che cos'è una ziggurat?",
+          "options": ["Una torre a gradoni con un tempio in cima", "La tomba a piramide di un re", "Una tavoletta d'argilla con un testo sacro", "Il palazzo dove vivevano gli scribi"],
+          "answer": 0,
+          "explanation": "Era il centro religioso ed economico della città sumera, costruito in mattoni crudi."
+        }
+      ]
+    },
+    {
+      "id": "04-babilonia",
+      "title": "Accadi e Babilonesi: il primo impero e la legge scritta",
+      "minutes": 15,
+      "file": "04-babilonia.md",
+      "quiz": [
+        {
+          "id": "m4q1",
+          "text": "Chi fonda il primo impero della storia, intorno al 2350 a.C.?",
+          "options": ["Hammurabi di Babilonia", "Sargon di Akkad", "Ciro il Grande", "Gilgamesh di Uruk"],
+          "answer": 1,
+          "explanation": "Sargon, re di Akkad, conquista le città sumere e le riunisce sotto un unico potere."
+        },
+        {
+          "id": "m4q2",
+          "text": "Che cos'è un impero?",
+          "options": ["Una città indipendente con il suo dio", "Un'alleanza tra città alla pari", "Uno Stato che domina popoli e territori diversi con un unico sovrano", "Un regno governato dai sacerdoti"],
+          "answer": 2,
+          "explanation": "La differenza con la città-stato è proprio il dominio su popoli diversi e territori vasti."
+        },
+        {
+          "id": "m4q3",
+          "text": "Su che cosa sono incise le leggi di Hammurabi?",
+          "options": ["Su una stele di basalto", "Su papiri", "Sulle pareti di una ziggurat", "Su tavolette di cera"],
+          "answer": 0,
+          "explanation": "La stele, con in cima il re davanti al dio Shamash, oggi si trova al Louvre di Parigi."
+        },
+        {
+          "id": "m4q4",
+          "text": "Che cosa dice la legge del taglione?",
+          "options": ["Chi non paga le tasse perde la terra", "I giudici decidono la pena caso per caso", "Le pene sono uguali per tutti", "Chi causa un danno subisce un danno uguale"],
+          "answer": 3,
+          "explanation": "«Occhio per occhio, dente per dente»: serviva anche a impedire vendette più gravi dell'offesa."
+        },
+        {
+          "id": "m4q5",
+          "text": "Nel codice di Hammurabi le pene sono uguali per tutti?",
+          "options": ["Sì, per la prima volta nella storia", "No, cambiano secondo la classe sociale", "Sì, ma solo per gli uomini liberi", "No, valgono solo per gli schiavi"],
+          "answer": 1,
+          "explanation": "Lo stesso danno costa di più se la vittima è un uomo libero che se è uno schiavo."
+        }
+      ]
+    },
+    {
+      "id": "05-imperi",
+      "title": "Ittiti, Assiri e Persiani",
+      "minutes": 18,
+      "file": "05-imperi.md",
+      "quiz": [
+        {
+          "id": "m5q1",
+          "text": "Per che cosa sono ricordati gli Ittiti?",
+          "options": ["Per la biblioteca di Ninive", "Per la Strada reale", "Per l'invenzione della scrittura", "Per i carri da guerra, il ferro e un trattato di pace con l'Egitto"],
+          "answer": 3,
+          "explanation": "Dopo la battaglia di Qadesh contro Ramses II firmarono un trattato di pace: il primo di cui abbiamo il testo di entrambe le parti."
+        },
+        {
+          "id": "m5q2",
+          "text": "Come governavano gli Assiri i popoli vinti?",
+          "options": ["Con il terrore e le deportazioni", "Con la tolleranza religiosa", "Lasciandoli del tutto liberi", "Con un parlamento di rappresentanti"],
+          "answer": 0,
+          "explanation": "Punivano duramente le ribellioni e spostavano interi popoli in altre regioni per spezzarne la resistenza."
+        },
+        {
+          "id": "m5q3",
+          "text": "Che cosa raccolse il re assiro Assurbanipal a Ninive?",
+          "options": ["Il primo codice di leggi", "Un grande esercito di mercenari greci", "Una biblioteca di migliaia di tavolette", "I giardini pensili"],
+          "answer": 2,
+          "explanation": "Grazie a quella biblioteca conosciamo molti testi mesopotamici, tra cui l'Epopea di Gilgamesh."
+        },
+        {
+          "id": "m5q4",
+          "text": "Che cosa fece Ciro il Grande dopo aver conquistato Babilonia nel 539 a.C.?",
+          "options": ["Distrusse la città e ne deportò gli abitanti", "Permise agli Ebrei di tornare a Gerusalemme", "Impose a tutti la religione persiana", "Spostò la capitale a Ninive"],
+          "answer": 1,
+          "explanation": "Ciro governò con tolleranza, rispettando religioni e costumi dei popoli sottomessi."
+        },
+        {
+          "id": "m5q5",
+          "text": "Che cos'erano le satrapie?",
+          "options": ["Le province dell'impero persiano, ciascuna con un governatore", "I templi dello zoroastrismo", "Le stazioni di posta della Strada reale", "Le monete d'oro di Dario"],
+          "answer": 0,
+          "explanation": "Dario I divise l'impero in satrapie governate dai satrapi, controllati dagli «occhi e orecchie del re»."
+        }
+      ]
+    }
+  ],
+  "test": {
+    "minutes": 40,
+    "questions": [
+      {
+        "id": "t01", "topic": "Il Paleolitico",
+        "text": "In base a che cosa gli studiosi dividono la preistoria in età della pietra e età dei metalli?",
+        "options": ["Al clima del periodo", "Al materiale con cui erano fatti gli strumenti", "Alle specie umane presenti", "Ai luoghi in cui si viveva"],
+        "answer": 1,
+        "explanation": "Pietra scheggiata nel Paleolitico, pietra levigata nel Neolitico, poi rame, bronzo e ferro."
+      },
+      {
+        "id": "t02", "topic": "Il Paleolitico",
+        "text": "Quale specie umana è la prima a uscire dall'Africa e a usare il fuoco?",
+        "options": ["Homo sapiens", "L'uomo di Neanderthal", "Homo erectus", "Homo habilis"],
+        "answer": 2,
+        "explanation": "Homo erectus si diffonde in Asia ed Europa e impara a usare il fuoco per scaldarsi, cuocere e difendersi."
+      },
+      {
+        "id": "t03", "topic": "Il Paleolitico",
+        "text": "Che cosa sono le pitture di Lascaux e Altamira?",
+        "options": ["Decorazioni dei templi sumeri", "Pitture rupestri del Paleolitico con animali", "Mappe del Neolitico", "Le prime forme di scrittura"],
+        "answer": 1,
+        "explanation": "Raffigurano bisonti, cavalli e cervi. Forse avevano una funzione magica o religiosa legata alla caccia."
+      },
+      {
+        "id": "t04", "topic": "Il Paleolitico",
+        "text": "Che cosa accade circa 12.000 anni fa, alla fine del Paleolitico?",
+        "options": ["Compare Homo sapiens", "Si inventa la scrittura", "Inizia una nuova glaciazione", "Finisce l'ultima glaciazione e il clima si riscalda"],
+        "answer": 3,
+        "explanation": "Con il clima più caldo cambiano piante e animali, e si prepara la rivoluzione neolitica."
+      },
+      {
+        "id": "t05", "topic": "Il Neolitico",
+        "text": "Quale di questi villaggi è tra i più antichi, già circondato da mura intorno all'8000 a.C.?",
+        "options": ["Gerico", "Ninive", "Persepoli", "Ur"],
+        "answer": 0,
+        "explanation": "Gerico, in Palestina. Ninive, Persepoli e Ur sono città di epoche successive."
+      },
+      {
+        "id": "t06", "topic": "Il Neolitico",
+        "text": "Quale di queste novità NON appartiene al Neolitico?",
+        "options": ["La ceramica", "La pietra levigata", "La tessitura", "La scrittura cuneiforme"],
+        "answer": 3,
+        "explanation": "La scrittura nasce molto più tardi, intorno al 3200 a.C., con i Sumeri."
+      },
+      {
+        "id": "t07", "topic": "Il Neolitico",
+        "text": "Perché la divisione del lavoro nasce nel Neolitico?",
+        "options": ["Perché il re assegna i mestieri", "Perché le eccedenze permettono ad alcuni di non procurarsi il cibo", "Perché i nomadi si dividono i compiti di caccia", "Perché arrivano schiavi da altri popoli"],
+        "answer": 1,
+        "explanation": "Se il villaggio produce cibo in più, alcuni possono fare gli artigiani, come vasai e tessitori."
+      },
+      {
+        "id": "t08", "topic": "Il Neolitico",
+        "text": "Chi è Ötzi?",
+        "options": ["Un uomo dell'età del rame trovato in un ghiacciaio delle Alpi", "Un re sumero protagonista di un'epopea", "Il fondatore della città di Gerico", "Un archeologo che scoprì Lascaux"],
+        "answer": 0,
+        "explanation": "Visse circa 5.300 anni fa, aveva con sé un'ascia di rame ed è conservato a Bolzano."
+      },
+      {
+        "id": "t09", "topic": "I Sumeri",
+        "text": "Che cosa significa la parola «Mesopotamia»?",
+        "options": ["Terra del sole", "Terra delle città", "Terra tra i fiumi", "Terra dei re"],
+        "answer": 2,
+        "explanation": "È una parola greca: i fiumi sono il Tigri e l'Eufrate."
+      },
+      {
+        "id": "t10", "topic": "I Sumeri",
+        "text": "Su che cosa scrivevano i Sumeri?",
+        "options": ["Su tavolette d'argilla, con uno stilo di canna", "Su papiro, con l'inchiostro", "Su pergamena", "Su lastre di bronzo"],
+        "answer": 0,
+        "explanation": "I segni a forma di cuneo venivano impressi nell'argilla ancora morbida: da qui il nome cuneiforme."
+      },
+      {
+        "id": "t11", "topic": "I Sumeri",
+        "text": "Quale di queste usanze di oggi deriva dal sistema di calcolo dei Sumeri?",
+        "options": ["Il calendario di 365 giorni", "Il sistema metrico decimale", "I numeri arabi", "I 60 minuti dell'ora"],
+        "answer": 3,
+        "explanation": "I Sumeri contavano in base 60: ne derivano i 60 minuti e i 360 gradi del cerchio."
+      },
+      {
+        "id": "t12", "topic": "I Sumeri",
+        "text": "Chi era Gilgamesh?",
+        "options": ["Il dio della giustizia babilonese", "Un re di Uruk protagonista di un antico poema", "Il primo imperatore persiano", "Lo scriba che inventò il cuneiforme"],
+        "answer": 1,
+        "explanation": "L'Epopea di Gilgamesh racconta la sua ricerca dell'immortalità."
+      },
+      {
+        "id": "t13", "topic": "Accadi e Babilonesi",
+        "text": "In quale lingua parlavano gli Accadi?",
+        "options": ["In sumerico", "In greco", "In una lingua semitica, scritta in cuneiforme", "In una lingua indoeuropea"],
+        "answer": 2,
+        "explanation": "Gli Accadi avevano una lingua diversa dai Sumeri, ma ne adottarono la scrittura."
+      },
+      {
+        "id": "t14", "topic": "Accadi e Babilonesi",
+        "text": "Qual è la novità più importante del codice di Hammurabi?",
+        "options": ["Le leggi sono scritte, esposte e uguali in tutto il regno", "Abolisce la schiavitù", "Prevede pene uguali per tutti", "Dà il potere a un'assemblea di cittadini"],
+        "answer": 0,
+        "explanation": "Le regole non dipendono più dalle usanze locali o dal giudice, ma sono fissate per iscritto."
+      },
+      {
+        "id": "t15", "topic": "Accadi e Babilonesi",
+        "text": "Quale dio è raffigurato sulla stele di Hammurabi davanti al re?",
+        "options": ["Marduk, dio di Babilonia", "Ahura Mazda", "Ishtar, dea dell'amore", "Shamash, dio del sole e della giustizia"],
+        "answer": 3,
+        "explanation": "L'immagine vuole dire che le leggi hanno un'origine divina. Marduk era invece il dio principale della città."
+      },
+      {
+        "id": "t16", "topic": "Accadi e Babilonesi",
+        "text": "Quale popolo saccheggiò Babilonia nel 1595 a.C.?",
+        "options": ["Gli Assiri", "Gli Ittiti", "I Persiani", "Gli Accadi"],
+        "answer": 1,
+        "explanation": "Gli Ittiti, venuti dall'Anatolia. Babilonia passò poi sotto altri dominatori."
+      },
+      {
+        "id": "t17", "topic": "Ittiti, Assiri e Persiani",
+        "text": "Contro chi combatterono gli Ittiti la battaglia di Qadesh?",
+        "options": ["Contro gli Assiri", "Contro i Persiani di Ciro", "Contro l'Egitto di Ramses II", "Contro i Sumeri di Ur"],
+        "answer": 2,
+        "explanation": "La battaglia, intorno al 1274 a.C., finì senza un vero vincitore e fu seguita da un trattato di pace."
+      },
+      {
+        "id": "t18", "topic": "Ittiti, Assiri e Persiani",
+        "text": "In che anno cade Ninive e con essa l'impero assiro?",
+        "options": ["612 a.C.", "539 a.C.", "1595 a.C.", "330 a.C."],
+        "answer": 0,
+        "explanation": "Ninive fu distrutta da Babilonesi e Medi. Il 539 a.C. è invece la conquista di Babilonia da parte di Ciro."
+      },
+      {
+        "id": "t19", "topic": "Ittiti, Assiri e Persiani",
+        "text": "Che cos'era la cattività babilonese?",
+        "options": ["La prigionia di Hammurabi", "La deportazione degli Ebrei a Babilonia", "La conquista persiana di Babilonia", "La schiavitù dei Sumeri sotto gli Accadi"],
+        "answer": 1,
+        "explanation": "Nabucodonosor II conquistò Gerusalemme nel 587 a.C. e deportò gran parte degli Ebrei. Fu Ciro a permettere il loro ritorno."
+      },
+      {
+        "id": "t20", "topic": "Ittiti, Assiri e Persiani",
+        "text": "Quale di queste opere si deve a Dario I?",
+        "options": ["La porta di Ishtar", "La biblioteca di Ninive", "Il codice di leggi su stele", "La Strada reale da Susa a Sardi"],
+        "answer": 3,
+        "explanation": "Circa 2.500 chilometri con stazioni di posta. Dario introdusse anche le satrapie e la moneta d'oro chiamata darico."
+      }
+    ]
+  }
+}

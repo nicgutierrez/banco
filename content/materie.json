@@ -1,0 +1,151 @@
+[
+  {
+    "id": "storia",
+    "name": "Storia",
+    "units": [
+      { "id": "01-preistoria-vicino-oriente", "title": "Preistoria e Vicino Oriente antico", "ready": true },
+      { "id": "02-egitto-fenici-ebrei", "title": "Egitto, Fenici ed Ebrei", "ready": false },
+      { "id": "03-grecia-poleis", "title": "La Grecia delle poleis", "ready": false },
+      { "id": "04-guerre-persiane-alessandro", "title": "Dalle guerre persiane ad Alessandro Magno", "ready": false },
+      { "id": "05-roma-origini-repubblica", "title": "Roma dalle origini alla repubblica", "ready": false },
+      { "id": "06-espansione-crisi-repubblica", "title": "Espansione e crisi della repubblica", "ready": false },
+      { "id": "07-impero-romano", "title": "L'impero romano", "ready": false },
+      { "id": "08-tardo-impero-cristianesimo", "title": "Il tardo impero e il cristianesimo", "ready": false },
+      { "id": "09-regni-barbarici-bisanzio", "title": "Regni romano-barbarici e Bisanzio", "ready": false },
+      { "id": "10-islam-carolingi-feudalesimo", "title": "Islam, Carolingi e feudalesimo", "ready": false }
+    ]
+  },
+  {
+    "id": "matematica",
+    "name": "Matematica",
+    "units": [
+      { "id": "01-insiemi-numeri", "title": "Insiemi e numeri", "ready": false },
+      { "id": "02-monomi-polinomi", "title": "Monomi e polinomi", "ready": false },
+      { "id": "03-equazioni-primo-grado", "title": "Equazioni di primo grado", "ready": false },
+      { "id": "04-scomposizioni-frazioni-algebriche", "title": "Scomposizioni e frazioni algebriche", "ready": false },
+      { "id": "05-disequazioni-sistemi", "title": "Disequazioni e sistemi lineari", "ready": false },
+      { "id": "06-radicali", "title": "Radicali", "ready": false },
+      { "id": "07-equazioni-secondo-grado", "title": "Equazioni di secondo grado", "ready": false },
+      { "id": "08-piano-cartesiano-retta", "title": "Piano cartesiano e retta", "ready": false },
+      { "id": "09-geometria-euclidea", "title": "Geometria euclidea", "ready": false },
+      { "id": "10-statistica-probabilita", "title": "Statistica e probabilità", "ready": false }
+    ]
+  },
+  {
+    "id": "italiano",
+    "name": "Italiano",
+    "units": [
+      { "id": "01-fonologia-ortografia", "title": "Fonologia e ortografia", "ready": false },
+      { "id": "02-nome-articolo-aggettivo", "title": "Nome, articolo e aggettivo", "ready": false },
+      { "id": "03-verbo", "title": "Il verbo", "ready": false },
+      { "id": "04-altre-parti-discorso", "title": "Pronomi, avverbi, preposizioni e congiunzioni", "ready": false },
+      { "id": "05-frase-semplice", "title": "La frase semplice", "ready": false },
+      { "id": "06-periodo", "title": "Il periodo", "ready": false },
+      { "id": "07-riassunto-parafrasi", "title": "Riassunto e parafrasi", "ready": false },
+      { "id": "08-testo-descrittivo-narrativo", "title": "Testo descrittivo e narrativo", "ready": false },
+      { "id": "09-testo-espositivo-argomentativo", "title": "Testo espositivo e argomentativo", "ready": false },
+      { "id": "10-narrativa", "title": "Il racconto e i suoi elementi", "ready": false },
+      { "id": "11-poesia", "title": "Poesia: metrica e figure retoriche", "ready": false },
+      { "id": "12-epica-promessi-sposi", "title": "Epica e I promessi sposi", "ready": false }
+    ]
+  },
+  {
+    "id": "inglese",
+    "name": "Inglese",
+    "units": [
+      { "id": "01-present-tenses", "title": "Present simple e present continuous", "ready": false },
+      { "id": "02-past-tenses", "title": "Past simple e past continuous", "ready": false },
+      { "id": "03-present-perfect", "title": "Present perfect", "ready": false },
+      { "id": "04-future", "title": "Il futuro", "ready": false },
+      { "id": "05-modals", "title": "I verbi modali", "ready": false },
+      { "id": "06-comparatives", "title": "Comparativi e superlativi", "ready": false },
+      { "id": "07-conditionals", "title": "Periodo ipotetico", "ready": false },
+      { "id": "08-reading-writing", "title": "Comprensione e produzione scritta", "ready": false }
+    ]
+  },
+  {
+    "id": "geografia",
+    "name": "Geografia",
+    "units": [
+      { "id": "01-strumenti", "title": "Gli strumenti della geografia", "ready": false },
+      { "id": "02-climi-ambienti", "title": "Climi e ambienti", "ready": false },
+      { "id": "03-popolazione-migrazioni", "title": "Popolazione e migrazioni", "ready": false },
+      { "id": "04-citta", "title": "Città e insediamenti", "ready": false },
+      { "id": "05-economia-globalizzazione", "title": "Economia e globalizzazione", "ready": false },
+      { "id": "06-italia-europa", "title": "L'Italia e l'Unione europea", "ready": false }
+    ]
+  },
+  {
+    "id": "diritto-economia",
+    "name": "Diritto ed economia",
+    "units": [
+      { "id": "01-norme-fonti", "title": "Le norme e le fonti del diritto", "ready": false },
+      { "id": "02-stato", "title": "Lo Stato e le sue forme", "ready": false },
+      { "id": "03-costituzione", "title": "La Costituzione italiana", "ready": false },
+      { "id": "04-diritti-doveri", "title": "Diritti e doveri dei cittadini", "ready": false },
+      { "id": "05-organi-stato", "title": "Gli organi dello Stato", "ready": false },
+      { "id": "06-sistema-economico", "title": "Bisogni, beni e sistema economico", "ready": false },
+      { "id": "07-mercato", "title": "Il mercato, la domanda e l'offerta", "ready": false },
+      { "id": "08-moneta-banche", "title": "Moneta, banche e inflazione", "ready": false }
+    ]
+  },
+  {
+    "id": "scienze",
+    "name": "Scienze della Terra e biologia",
+    "units": [
+      { "id": "01-universo-sistema-solare", "title": "L'universo e il sistema solare", "ready": false },
+      { "id": "02-terra-moti", "title": "La Terra e i suoi moti", "ready": false },
+      { "id": "03-atmosfera-clima", "title": "Atmosfera e clima", "ready": false },
+      { "id": "04-idrosfera", "title": "L'idrosfera", "ready": false },
+      { "id": "05-minerali-rocce", "title": "Minerali e rocce", "ready": false },
+      { "id": "06-vulcani-terremoti", "title": "Vulcani e terremoti", "ready": false },
+      { "id": "07-cellula", "title": "La cellula", "ready": false },
+      { "id": "08-biomolecole", "title": "Le molecole della vita", "ready": false },
+      { "id": "09-ereditarieta-dna", "title": "Ereditarietà e DNA", "ready": false },
+      { "id": "10-evoluzione-ecosistemi", "title": "Evoluzione ed ecosistemi", "ready": false }
+    ]
+  },
+  {
+    "id": "fisica",
+    "name": "Fisica",
+    "units": [
+      { "id": "01-grandezze-misure", "title": "Grandezze e misure", "ready": false },
+      { "id": "02-vettori-forze", "title": "Vettori e forze", "ready": false },
+      { "id": "03-equilibrio-solidi", "title": "L'equilibrio dei solidi", "ready": false },
+      { "id": "04-equilibrio-fluidi", "title": "L'equilibrio dei fluidi", "ready": false },
+      { "id": "05-moto-rettilineo", "title": "Il moto rettilineo", "ready": false },
+      { "id": "06-moti-piano", "title": "Accelerazione e moti nel piano", "ready": false },
+      { "id": "07-principi-dinamica", "title": "I principi della dinamica", "ready": false },
+      { "id": "08-lavoro-energia", "title": "Lavoro ed energia", "ready": false },
+      { "id": "09-temperatura-calore", "title": "Temperatura e calore", "ready": false }
+    ]
+  },
+  {
+    "id": "chimica",
+    "name": "Chimica",
+    "units": [
+      { "id": "01-materia-stati", "title": "La materia e i suoi stati", "ready": false },
+      { "id": "02-miscugli-sostanze", "title": "Miscugli e sostanze pure", "ready": false },
+      { "id": "03-leggi-ponderali", "title": "Trasformazioni e leggi ponderali", "ready": false },
+      { "id": "04-atomo", "title": "L'atomo e le particelle subatomiche", "ready": false },
+      { "id": "05-tavola-periodica", "title": "La tavola periodica", "ready": false },
+      { "id": "06-legami", "title": "I legami chimici", "ready": false },
+      { "id": "07-mole", "title": "La mole", "ready": false },
+      { "id": "08-nomenclatura-reazioni", "title": "Nomenclatura e reazioni", "ready": false },
+      { "id": "09-soluzioni-acidi-basi", "title": "Soluzioni, acidi e basi", "ready": false }
+    ]
+  },
+  {
+    "id": "informatica",
+    "name": "Tecnologie informatiche",
+    "units": [
+      { "id": "01-hardware", "title": "Com'è fatto un computer", "ready": false },
+      { "id": "02-sistemi-operativi", "title": "Sistemi operativi e file", "ready": false },
+      { "id": "03-rappresentazione-informazione", "title": "Rappresentare l'informazione", "ready": false },
+      { "id": "04-reti-internet", "title": "Reti e internet", "ready": false },
+      { "id": "05-foglio-calcolo", "title": "Il foglio di calcolo", "ready": false },
+      { "id": "06-algoritmi", "title": "Algoritmi e diagrammi di flusso", "ready": false },
+      { "id": "07-programmazione", "title": "I primi programmi", "ready": false }
+    ]
+  }
+]
